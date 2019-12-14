@@ -35,6 +35,10 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 
+.footer-container{
+	width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -551,10 +555,12 @@ footer h3 {
 }
 
 .footer-credit{
-	padding-top: 120px;
+	padding-top: 60%;
+	padding-right: 16px;
 /*	padding-left: 20px;*/
-    color: #c1c1c1;
+    color: #a6acaf;
 	font-size: 10px;
+	text-align: right;
 }
 
 
