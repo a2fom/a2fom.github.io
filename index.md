@@ -21,7 +21,7 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 
 # Program
 
-[program](Detail program)
+[program](Detail program) 
 
 # Call for contributions
 
