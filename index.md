@@ -1,7 +1,5 @@
 ---
 layout: post
-title:  "Your Blog Title Here"
-featured-img: /img/bg1.JPG
 ---
 
 # Scope
