@@ -36,7 +36,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
 
 .footer-container{
-	width: 100%;
+	width: 98%;
 }
 
 h1,
@@ -417,101 +417,9 @@ p.blog-text{
   }
 }
 
-/*
-* ==========================================================================
-* Feedback Section
-* ==========================================================================
-*/
-.feedback-section {
-  padding-bottom: 50px;
-}
-@media (max-width: 767px) {
-  .feedback-section {
-    padding-bottom: 40px;
-  }
-}
-.feedback-section .feedback-form .btn-captcha-refresh {
-  margin: 0 0 0 25px;
-}
-.feedback-section .address-section {
-  text-align: center;
-  padding-top: 50px;
-}
-@media (max-width: 767px) {
-  .feedback-section .address-section {
-    padding-top: 40px;
-  }
-}
-.feedback-section .address-section .address-icon {
-  color: #1bbd9b;
-  font-size: 48px;
-  line-height: 48px;
-  margin-bottom: 30px;
-}
-.feedback-section .address-section .address-title {
-  margin-bottom: 15px;
-}
-.feedback-section .address-section .address-desc {
-  margin-bottom: 30px;
-}
 
-/*
-* ==========================================================================
-* Services Section
-* ==========================================================================
-*/
-.services-section {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.services-section .services-header {
-  margin-bottom: 50px;
-  font-size: 25px;
-}
-.services-section .services-header .services-header-title {
-  margin-bottom: 15px;
-}
-.services-section .services-row-tail {
-  margin-top: 50px;
-}
-.services-section .services-icon {
-  color: #1bbd9b;
-  margin-bottom: 30px;
-}
-.services-section .services-title {
-  margin-bottom: 15px;
-}
-.services-section .services-desc {
-  margin-bottom: 30px;
-}
-@media (max-width: 767px) {
-  .services-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .services-section .services-group {
-    margin-bottom: 50px;
-  }
-  .services-section .services-row-tail {
-    margin-top: 0;
-  }
-}
-.services-icon .fa:hover{
-    padding: 0 10px 0 10px;
-    color: white;
-    background: #1BBD9B;
-    border-radius: 3px; 
-    transition:.4s;  
-}
-.services-group{
-  padding: 10px;
-  background:#061F20;
-  color: white;
-}
-.service-icon{
-  color: white;
-}
+
+
 
 
 /* ----- Footer ----- */
@@ -555,12 +463,12 @@ footer h3 {
 }
 
 .footer-credit{
-	padding-top: 60%;
-	padding-right: 16px;
-/*	padding-left: 20px;*/
-    color: #a6acaf;
 	font-size: 10px;
 	text-align: right;
+	padding-top: 60%;
+/*	padding-right: 16px;*/
+/*	padding-left: 20px;*/
+    color: #a6acaf;
 }
 
 
@@ -785,6 +693,13 @@ footer h3 {
   font-size: 28px;
   padding-bottom: 12.5%;
 }
+.carousel-caption .carousel-credit {
+  color: #a6acaf;
+  font-size: 10px;
+  text-align: right;
+/*  padding-bottom: 12.5%;*/
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .carousel-caption {
     font-size: 12px;

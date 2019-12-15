@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mathematics of Machine Learning
-email: MathML2020@bath.ac.uk
+title: xx
+email: xx
 description: > # this means to ignore newlines until "baseurl:"
   Yet another Jekyll theme. It is designed for business purpose and ported by 
   Melvin Ch'ng.
@@ -22,10 +22,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
-org_name: University of Bath
-address_line: Bath BA2 7AY, United Kingdom
-org_email: MathML2020@bath.ac.uk
-google_map: https://www.google.com/maps/place/University+of+Bath/@51.3782228,-2.3263987,15z/data=!4m2!3m1!1s0x0:0x842e7cc0699da7e7?sa=X&ved=2ahUKEwiMnfGUhbHmAhXX6Z4KHTIVAbgQ_BIwG3oECAsQCA
+org_name: xxx
+address_line: xxx
+org_email: xxx
+google_map:
 
 # Social Link
 facebook_link: http://www.facebook.com
