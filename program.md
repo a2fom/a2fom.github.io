@@ -6,7 +6,7 @@ layout: program
 
 # Talks
 
-**NB:** Click speaker and title to toggle abstract. 
+**NB:** Click speaker and title to toggle abstract. ...
 
 <!-- Tab links -->
 <div class="tab">
