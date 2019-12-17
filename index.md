@@ -4,7 +4,7 @@ title: "The Lorem Ipsum"
 description: "Lorem Ipsum"
 ---
 
-<span style="color:white"> </span>
+<!-- <span style="color:white"> </span> -->
 
 # What is Lorem Ipsum?
 
