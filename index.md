@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+<span style="color:white"> </span>
 
 # What is Lorem Ipsum?
 
