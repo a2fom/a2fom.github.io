@@ -1,5 +1,7 @@
 ---
 layout: program 
+title: "Title Lorem Ipsum asdfasf asdf"
+description: "Title Lorem Ipsum asdfsaf asf" 
 ---
 
 

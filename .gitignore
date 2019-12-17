@@ -1,2 +1,4 @@
 *.zip
-.jekyll-cache
+.jekyll-cache/
+jekyll-cache/
+
