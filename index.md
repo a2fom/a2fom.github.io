@@ -1,7 +1,7 @@
 ---
 layout: default 
 title: "The Lorem Ipsum"
-description: "Lorem Ipsum"
+description: "Things you need to know about Lorem Ipsum"
 ---
 
 <!-- <span style="color:white"> </span> -->
