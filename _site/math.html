@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
 
 
   <head>
@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="assets/bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+	<script src="assets/bs/js/bootstrap.min.js"></script>
+	
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <style>
       #grad3 {
@@ -31,11 +35,10 @@
       <!-- <h2>Carousel Example</h2>   -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-caption">
-            <h3 class="carousel-title"> {{ page.title | default: site.title }} </h3>
-            <p class="carousel-body"> {{ page.description | default: site.description }} </p>
+            <h3 class="carousel-title"> Math equations in JEKYLL </h3>
+            <p class="carousel-body"> Equation with MathJax in Jekyll </p>
 
             <a href="index" class="btn">Back</a>
-            <a href="#talks" class="btn">Talks</a>
             <a href="#posters" class="btn">Posters</a>
         </div>
 
@@ -47,31 +50,29 @@
           </div>
       </div>
     </div>
-
+	
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      <h1 id="math-equations">Math equations</h1>
+
+<p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\).</p>
+
+<p>\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
+
+<p>
+$$
+\min_{x \in \mathbb{R}^n , y\in \mathbb{R}^m } ~ R(x) + J(y)  \quad
+\textrm{such that} \quad Ax + By = b  ,
+$$
+</p>
+
+<p>
+  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+</p>
+
     </main>
-
-    <!-- Java script for table -->
-    <script>
-      function openDate(evt, pmDate) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(pmDate).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-
-      // Get the element with id="defaultOpen" and click on it
-      document.getElementById("defaultOpen").click();
-    </script>
-
+	
 
   </body>
 

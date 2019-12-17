@@ -303,7 +303,7 @@ a:hover { text-decoration: underline; }
 
 .main-content :first-child { margin-top: 0rem; }
 
-@media screen and (min-width: 64em) { .main-content { width: 70%; margin-left: 15%; margin-top: 20px; padding-bottom: 50px; text-align: left; padding: 2rem 6rem; margin: 0 auto; font-size: 1.9rem; } }
+@media screen and (min-width: 64em) { .main-content { width: 80%; margin-left: 10%; margin-top: 20px; padding-bottom: 50px; text-align: justify; padding: 2rem 6rem; margin: 0 auto; font-size: 1.9rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) { .main-content { width: 60%; margin-left: 20%; margin-top: 10px; padding-bottom: 25px; padding: 2rem 4rem; font-size: 1.618rem; } }
 
@@ -312,6 +312,8 @@ a:hover { text-decoration: underline; }
 .main-content kbd { background-color: #fafbfc; border: 1px solid #c6cbd1; border-bottom-color: #959da5; border-radius: 3px; box-shadow: inset 0 -1px 0 #959da5; color: #444d56; display: inline-block; font-size: 11px; line-height: 10px; padding: 3px 5px; vertical-align: middle; }
 
 .main-content img { max-width: 100%; }
+
+.main-content li { font-size: 1.8rem; }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 2rem; font-weight: normal; color: #159957; }
 
@@ -407,6 +409,10 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
+.ul .li { font-style: bold; }
+
+.ol { font-style: bold; }
+
 .container { width: 100%; padding-left: 0px; padding-right: 0px; }
 
 .container-kamn { margin-right: auto; margin-left: auto; }
@@ -433,19 +439,19 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .carousel-caption .carousel-body { font-size: 16px; margin-bottom: 15%; } }
 
 /* Style the tab */
-div.tab { overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1; padding-top: -100px; }
+div.tab { overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1; vertical-align: center; font-weight: 550; color: darkgray; }
 
 /* Change background color of buttons on hover */
 div.tab button:hover { background-color: #ddd; }
 
 /* Create an active/current tablink class */
-div.tab button.active { background-color: #ccc; }
+div.tab button.active { color: #484848; background-color: #ccc; }
 
 /* Style the tab content */
 .tabcontent { display: none; padding: 6px 6px; border: 1px solid #ccc; border-top: none; padding-top: 16px; padding-bottom: 12px; }
 
 /* Style the buttons inside the tab */
-.tab button { background-color: inherit; float: center; border: none; outline: none; cursor: pointer; padding: 8px 16px; transition: 0.3s; font-size: 17px; }
+.tab button { background-color: inherit; float: center; border: none; outline: none; cursor: pointer; padding: 6px 6px; transition: 0.3s; font-size: 16px; }
 
 .button:after { content: ""; background: #90EE90; display: block; position: absolute; padding-top: 300%; padding-left: 350%; margin-left: -20px !important; margin-top: -120%; opacity: 0; transition: all 0.8s; }
 
@@ -457,8 +463,20 @@ div.tab button.active { background-color: #ccc; }
 
 .tg th { font-size: 18px; font-weight: normal; padding: 4px 5px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; border-color: #6d6d6d; }
 
-.tg .tg-lboi { font-size: 18px; border-color: inherit; text-align: center; vertical-align: middle; border-color: darkgray; }
+.tg .tg-lboi { font-size: 18px; border-color: inherit; text-align: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; border-color: darkgray; }
 
-.tg .tg-talk { border-color: inherit; text-align: left; vertical-align: middle; border-color: darkgray; }
+.tg .tg-talk { border-color: inherit; text-align: justify; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; border-color: darkgray; }
+
+.tg .abstract { font-size: 1.5rem; font-style: italic; margin-bottom: 0rem; }
+
+.poster { border-collapse: collapse; border-spacing: 0; border-width: 0px; }
+
+.poster td { font-size: 1.2rem; padding: 2px 3px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; border-color: rgba(240, 240, 240, 0.875); }
+
+.poster th { font-size: 1.2rem; font-weight: normal; padding: 2px 3px; padding-top: 0px; padding-bottom: 0px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; border-color: rgba(240, 240, 240, 0.875); }
+
+.poster .poster-lboi { font-size: 1.5rem; border-color: inherit; text-align: center; vertical-align: middle; border-color: rgba(240, 240, 240, 0.875); }
+
+.poster .poster-title { font-size: 1.5rem; border-color: inherit; text-align: justify; vertical-align: middle; border-color: rgba(240, 240, 240, 0.875); }
 
 /*# sourceMappingURL=style.css.map */

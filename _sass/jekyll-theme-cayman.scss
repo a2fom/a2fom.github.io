@@ -167,17 +167,17 @@ a {
 
 .main-content {
   word-wrap: break-word;
-
+  
   :first-child {
     margin-top: 0rem;
   }
 
   @include large {
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 20px;
     padding-bottom: 50px;
-    text-align: left;
+    text-align: justify;
     // max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
@@ -218,6 +218,10 @@ a {
 
   img {
     max-width: 100%;
+  }
+  
+  li {
+	  font-size: 1.8rem;
   }
 
   h1,
