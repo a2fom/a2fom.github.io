@@ -1,5 +1,7 @@
 ---
 layout: default 
+title: "The Lorem Ipsum"
+description: "Lorem Ipsum"
 ---
 
 <span style="color:white"> </span>
