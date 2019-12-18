@@ -1,17 +1,17 @@
-- name: 3_heroes_loadingscreen.png
+- name: 3_heroes_loadingscreen.jpg
   class: item active
 
-- name: artgerm_axe.png
+- name: artgerm_axe.jpg
   class: item
 
-- name: artgerm_es.png
+- name: artgerm_es.jpg
   class: item
 
-- name: artgerm_invoker.png
+- name: artgerm_invoker.jpg
   class: item
 
-- name: artgerm_pa.png
+- name: artgerm_pa.jpg
   class: item
 
-- name: artgerm_wr.png
+- name: artgerm_wr.jpg
   class: item
