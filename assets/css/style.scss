@@ -39,28 +39,48 @@
 .carousel-inner{
   width: 100%;
   min-height: 300px;
+  height: 400px;
+//    height: 100%;
+  
+//  position: absolute;
+  
+  @include large {
+    height: 400px;
+  }
+
+  @include medium {
+    height: 350px;
+  }
+
+  @include small {
+    height: 325px;
+  }
+  
 }
 .carousel-inner img{
+    position: absolute;
     height: 100%;
-    min-height: 300px;
+    min-height: 350px;
 }
 .carousel-img{
     width: 100%;
+    position: absolute;
     height: 100%;
-    min-height: 300px;
+//    min-height: 800px;
     object-fit: cover;
 }
 
 .carousel-caption .carousel-title {
+    width: 120%;
+    margin-left: -10%;
   color: #ffffff;
   font-size: 50px;
   font-weight: 900;
 //   padding: 2rem 1rem;
 //   width:100%;
-  z-index:10;
+//  z-index:10;
   text-align:center;
-//   top:50%;
-//   left:65%;
+  vertical-align: center;
   bottom:auto;
 
   @include large {
@@ -70,73 +90,86 @@
   }
 
   @include medium {
-    font-size: 40px;
-    // padding: 0.75rem 1rem;
-    // margin-bottom: 10%;
-    // margin-top: -30%;
+    font-size: 50px;
   }
 
   @include small {
-    font-size: 30px;
-    // padding: 0.75rem 1rem;
-    // margin-bottom: 10%;
-    // margin-top: -30%;
+    font-size: 32px;
   }
 
 }
 .carousel-caption .carousel-body {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 28px;
   padding: 1rem 0.5rem;
-//   padding-bottom: 12.5%;
+  vertical-align: center;
 
   @include large {
-    // padding: 0.75rem 1rem;
-    margin-bottom: 7.5%;
+//    margin-bottom: 7.5%;
   }
 
   @include medium {
-    font-size: 20px;
-    // padding: 0.75rem 1rem;
-    margin-bottom: 5%;
+    font-size: 24px;
+//    margin-bottom: 5%;
   }
 
   @include small {
-    font-size: 16px;
-    // padding: 0.75rem 1rem;
-    margin-bottom: 15%;
+    font-size: 22px;
+//    margin-bottom: 15%;
   }
 
 }
-// @media (min-width: 768px) and (max-width: 1199px) {
-//   .carousel-caption {
-//     font-size: 12px;
-//     padding-bottom: 0px;
-//     bottom: 2px;
-//   }
-//   .carousel-caption .carousel-title {
-//     font-size: 40px;
-// 	font-weight: 900;
-//   }
-//   .carousel-caption .carousel-body {
-//     font-size: 22px;
-// 	padding-bottom: 10%;
-//   }
-// }
-// @media (max-width: 767px) {
-//   .carousel-caption {
-//     font-size: 11px;
-//     padding-bottom: 0;
-//     bottom: 0;
-//   }
-//   .carousel-caption .carousel-title {
-//     font-size: 25px;
-// 	font-weight: 900;
-//   }
-//   .carousel-caption .carousel-body {
-//     font-size: 16px;
-//   }
-// }
+
+
+.carousel-btn {
+  display: inline-block;
+  // margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(32, 32, 32, 0.25);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.99);
+    text-decoration: none;
+    background-color: rgba(32, 32, 32, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  + .btn {
+    margin-left: 1rem;
+  }
+
+  @include large {
+    padding: 0.4rem 1rem;
+    padding-bottom: 0.65rem;
+    margin: 0.5rem 0.5rem;
+    margin-bottom: -1rem;
+    // margin-top: 3rem;
+    margin-top: 4.5%;
+  }
+
+  @include medium {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.9rem;
+    margin: 0.4rem 0.4rem;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+  }
+
+  @include small {
+    // display: block;
+    // width: 33%;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.9rem;
+    margin: 0.3rem 0.3rem;
+    margin-bottom: 0rem;
+    margin-top: 1.5rem;
+  }
+}
 
 
 
@@ -318,3 +351,33 @@ div.tab button.active {
 //	margin-bottom: 0rem;
 //}
 
+
+
+// gradient background img
+#gradRed2Yellow {
+  height: 500px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+}
+#gradYellow2Green {
+  height: 500px;
+  background-color: yellow; 
+  background-image: linear-gradient(to bottom right, yellow, green); 
+}
+#gradGreen2Blue {
+  height: 500px;
+  background-color: green; 
+  background-image: linear-gradient(to bottom right, green, blue);
+}
+#gradBlue2Red {
+  height: 500px;
+  background-color: blue; 
+  background-image: linear-gradient(to bottom right, blue, red);
+}
+
+
+/*
+*===========================================================================
+* navigation bar
+*===========================================================================
+*/

@@ -17,14 +17,6 @@
 	
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <style>
-      #grad3 {
-        height: 450px;
-        background-color: blue; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, green, blue); /* Standard syntax (must be last) */
-      }
-    </style>
   </head>
 
 
@@ -38,15 +30,14 @@
             <h3 class="carousel-title"> {{ page.title | default: site.title }} </h3>
             <p class="carousel-body"> {{ page.description | default: site.description }} </p>
 
-            <a href="index" class="btn">Back</a>
-            <a href="#posters" class="btn">Posters</a>
+            <a href="index" class="btn">Home</a>
+            <!-- <a href="#posters" class="btn">Posters</a> -->
         </div>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <!-- <img src="assets/img/img.jpg" style="width:100%;"> -->
-            <div id="grad3"></div>
+            <div id="gradYellow2Green"></div>
           </div>
       </div>
     </div>

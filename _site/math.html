@@ -17,14 +17,6 @@
 	
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <style>
-      #grad3 {
-        height: 450px;
-        background-color: blue; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, green, blue); /* Standard syntax (must be last) */
-      }
-    </style>
   </head>
 
 
@@ -38,15 +30,14 @@
             <h3 class="carousel-title"> Math equations in JEKYLL </h3>
             <p class="carousel-body"> Equation with MathJax in Jekyll </p>
 
-            <a href="index" class="btn">Back</a>
-            <a href="#posters" class="btn">Posters</a>
+            <a href="index" class="btn">Home</a>
+            <!-- <a href="#posters" class="btn">Posters</a> -->
         </div>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <!-- <img src="assets/img/img.jpg" style="width:100%;"> -->
-            <div id="grad3"></div>
+            <div id="gradYellow2Green"></div>
           </div>
       </div>
     </div>
@@ -54,22 +45,37 @@
     <main id="content" class="main-content" role="main">
       <h1 id="math-equations">Math equations</h1>
 
-<p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\).</p>
-
+<h4 id="the-quadratic-formula">The Quadratic Formula</h4>
 <p>\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
 
-<p>
-$$
-\min_{x \in \mathbb{R}^n , y\in \mathbb{R}^m } ~ R(x) + J(y)  \quad
-\textrm{such that} \quad Ax + By = b  ,
-$$
-</p>
+<h4 id="cauchys-integral-formula">Cauchy’s Integral Formula</h4>
+<p>\[f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\]</p>
 
-<p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-</p>
+<h4 id="double-angle-formula-for-cosines">Double angle formula for Cosines</h4>
+<p>\[ \cos(θ+φ)=\cos(θ)\cos(φ)−\sin(θ)\sin(φ) \]</p>
+
+<h4 id="gauss-divergence-theorem">Gauss’ Divergence Theorem</h4>
+<p>\[ \int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS \]</p>
+
+<h4 id="curl-of-a-vector-field">Curl of a Vector Field</h4>
+<p>\[ 
+\vec{\nabla} \times \vec{F} = 
+\left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i} + \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \mathbf{j} + \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \mathbf{k} 
+\]</p>
+
+<h4 id="standard-deviation">Standard Deviation</h4>
+<p>\[\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2} \]</p>
+
+<h4 id="definition-of-christoffel-symbols">Definition of Christoffel Symbols</h4>
+<p>\[(\nabla_X Y)^k = X^i (\nabla_i Y)^k =
+X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)\]</p>
+
+<h4 id="equation-referencing-eqrefeqcircle">Equation referencing \eqref{eq:circle}</h4>
+
+<p>\[\label{eq:circle} \tag{1}
+x^2 + y^2 = 1.
+\]</p>
+
 
     </main>
 	

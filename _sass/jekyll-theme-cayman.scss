@@ -182,24 +182,27 @@ a {
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.9rem;
+    margin-top: 2rem;
   }
 
   @include medium {
-    width: 60%;
-    margin-left: 20%;
+      width: 80%;
+      margin-left: 10%;
     margin-top: 10px;
     padding-bottom: 25px;
     padding: 2rem 4rem;
-    font-size: 1.618rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
   }
 
   @include small {
-    width: 60%;
-    margin-left: 20%;
+      width: 80%;
+      margin-left: 10%;
     margin-top: 10px;
     padding-bottom: 25px;
     padding: 2rem 1rem;
-    font-size: 1.414rem;
+    font-size: 1.7rem;
+    margin-top: 1rem;
   }
   
   kbd {
@@ -231,39 +234,39 @@ a {
   h5,
   h6 {
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-weight: normal;
+    margin-bottom: 1rem;
+    font-weight: bold;
     color: $section-headings-color;
   }
 
   h1,
   .h1 {
-    font-size: 4rem;
-    padding-top: 2.5rem;
+    font-size: 3.6rem;
+    padding-top: 1.0rem;
 
     @include large {
-      font-size: 4rem;
+      font-size: 3.6rem;
     }
     @include medium {
-      font-size: 3.5rem;
+      font-size: 3.0rem;
     }
     @include small {
-      font-size: 3rem;
+      font-size: 2.4rem;
     }
   }
 
   h2,
   .h2 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
 
     @include large {
-      font-size: 3.5rem;
+      font-size: 3.3rem;
     }
     @include medium {
-      font-size: 3rem;
+      font-size: 2.7rem;
     }
     @include small {
-      font-size: 2.5rem;
+      font-size: 2.1rem;
     }
   }
 
@@ -275,22 +278,22 @@ a {
       font-size: 3rem;
     }
     @include medium {
-      font-size: 2.5rem;
+      font-size: 2.4rem;
     }
     @include small {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 
   h4,
   .h4 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 
     @include large {
-      font-size: 2.5rem;
+      font-size: 2.7rem;
     }
     @include medium {
-      font-size: 2rem;
+      font-size: 2.1rem;
     }
     @include small {
       font-size: 1.5rem;
@@ -299,16 +302,16 @@ a {
 
   h5,
   .h5 {
-    font-size: 2rem;
+    font-size: 2.4rem;
 
     @include large {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
     @include medium {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
     @include small {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
 

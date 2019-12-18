@@ -4,7 +4,7 @@ toc:
           - name: A. Alpha
             ttime: xx - xx
             ttitle: title
-            tabstract: The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+            tabstract: The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\).
 
           - name: B. Bravo
             ttime: xx - xx

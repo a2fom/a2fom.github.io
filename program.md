@@ -1,12 +1,11 @@
 ---
-layout: talks 
+layout: program 
 title: "Programs"
-description: "Title Lorem Ipsum asdfsaf asf" 
+description: "Talks and posters" 
 ---
 
 
-
-# Talks
+## Talks
 
 **NB:** Click speaker and title to toggle abstract. ...
 
@@ -29,6 +28,12 @@ description: "Title Lorem Ipsum asdfsaf asf"
         <th class="tg-lboi" style="min-width:128px">Time</th>
         <th class="tg-lboi">Event</th>
       </tr>
+	  {% if item.title == "cDay" %} <!-- "cDay1" -->
+        <tr>
+          <td class="tg-lboi"> 8:50 - 9:00 </td>
+          <td class="tg-talk"> Opening remarks </td>
+        </tr>
+	  {% endif %}
 	  {% for entry in item.talks %}
         <tr>
           <td class="tg-lboi"> {{ entry.ttime }} </td>
@@ -41,15 +46,15 @@ description: "Title Lorem Ipsum asdfsaf asf"
 
 
 
-# Posters
+## Posters
 
 
 <ul>
-{% for poster in site.data.posters %}
-  <li>
-    <details> <summary>{{ poster.name }}: {{ poster.title }}</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> {{ poster.abstract }}</i></details>
-  </li>
-{% endfor %}
+    {% for poster in site.data.posters %}
+      <li>
+        <details> <summary>{{ poster.name }}: {{ poster.title }}</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> {{ poster.abstract }}</i></details>
+      </li>
+    {% endfor %}
 </ul>
 
 

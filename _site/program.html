@@ -13,14 +13,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 	<script src="assets/bs/js/bootstrap.min.js"></script>
-
-    <style>
-      #grad3 {
-        height: 450px;
-        background-color: blue; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, green, blue); /* Standard syntax (must be last) */
-      }
-    </style>
+    
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
 
 
@@ -32,9 +27,9 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-caption">
             <h3 class="carousel-title"> Programs </h3>
-            <p class="carousel-body"> Title Lorem Ipsum asdfsaf asf </p>
+            <p class="carousel-body"> Talks and posters </p>
 
-            <a href="index" class="btn">Back</a>
+            <a href="index" class="btn">Home</a>
             <a href="#talks" class="btn">Talks</a>
             <a href="#posters" class="btn">Posters</a>
         </div>
@@ -42,15 +37,14 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <!-- <img src="assets/img/img.jpg" style="width:100%;"> -->
-            <div id="grad3"></div>
+            <div id="gradGreen2Blue"></div>
           </div>
       </div>
     </div>
 	
 	
     <main id="content" class="main-content" role="main">
-      <h1 id="talks">Talks</h1>
+      <h2 id="talks">Talks</h2>
 
 <p><strong>NB:</strong> Click speaker and title to toggle abstract. …</p>
 
@@ -73,9 +67,10 @@
         <th class="tg-lboi">Event</th>
       </tr>
 	  
+	  
         <tr>
           <td class="tg-lboi"> xx - xx </td>
-          <td class="tg-talk"> <details> <summary><a href="#talks">A. Alpha</a>: title</summary> <p class="abstract"><b>Abstract:</b> The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. </p></details> </td>
+          <td class="tg-talk"> <details> <summary><a href="#talks">A. Alpha</a>: title</summary> <p class="abstract"><b>Abstract:</b> The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\). </p></details> </td>
         </tr>
 	  
         <tr>
@@ -102,6 +97,7 @@
         <th class="tg-lboi" style="min-width:128px">Time</th>
         <th class="tg-lboi">Event</th>
       </tr>
+	  
 	  
         <tr>
           <td class="tg-lboi"> xx - xx </td>
@@ -133,6 +129,7 @@
         <th class="tg-lboi">Event</th>
       </tr>
 	  
+	  
         <tr>
           <td class="tg-lboi"> xx - xx </td>
           <td class="tg-talk"> <details> <summary><a href="#talks">I. India</a>: title</summary> <p class="abstract"><b>Abstract:</b> The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. </p></details> </td>
@@ -163,6 +160,7 @@
         <th class="tg-lboi">Event</th>
       </tr>
 	  
+	  
         <tr>
           <td class="tg-lboi"> xx - xx </td>
           <td class="tg-talk"> <details> <summary><a href="#talks">M. Mike</a>: title</summary> <p class="abstract"><b>Abstract:</b> The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. </p></details> </td>
@@ -192,6 +190,7 @@
         <th class="tg-lboi" style="min-width:128px">Time</th>
         <th class="tg-lboi">Event</th>
       </tr>
+	  
 	  
         <tr>
           <td class="tg-lboi"> xx - xx </td>
@@ -246,82 +245,82 @@
     </table>
 </div>
 
-<h1 id="posters">Posters</h1>
+<h2 id="posters">Posters</h2>
 
 <ul>
-
-  <li>
-    <details> <summary>Author 1: Poster 1</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 2: Poster 2</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 3: Poster 3</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 4: Poster 4</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 5: Poster 5</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 6: Poster 6</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 7: Poster 7</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 8: Poster 8</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 9: Poster 9</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 9: Poster 9</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 10: Poster 10</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 11: Poster 11</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 12: Poster 12</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 13: Poster 13</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 14: Poster 14</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 15: Poster 15</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 16: Poster 16</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
-  <li>
-    <details> <summary>Author 17: Poster 17</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
-  </li>
-
+    
+      <li>
+        <details> <summary>Author 1: Poster 1</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 2: Poster 2</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 3: Poster 3</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 4: Poster 4</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 5: Poster 5</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 6: Poster 6</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 7: Poster 7</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 8: Poster 8</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 9: Poster 9</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 9: Poster 9</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 10: Poster 10</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 11: Poster 11</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 12: Poster 12</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 13: Poster 13</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 14: Poster 14</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 15: Poster 15</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 16: Poster 16</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
+      <li>
+        <details> <summary>Author 17: Poster 17</summary> <i style="font-size:1.5rem;"><b style="padding-left:28px;">Abstract:</b> Abstract</i></details>
+      </li>
+    
 </ul>
 
 <!-- <table class="poster">
