@@ -3,11 +3,14 @@
 
   <head>
     <meta charset="UTF-8">
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
+    
+    <link rel="icon" href="assets/icon/dota2_64.png">
+    <title>{{ site.title }}</title>
+    
     <link rel="stylesheet" href="assets/bs/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="assets/bs/css/bootstrap.css"> -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -22,7 +25,6 @@
       
     
     <div class="container">
-      <!-- <h2>Carousel Example</h2>   -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         
         <div class="carousel-caption">
@@ -30,29 +32,17 @@
             <p class="carousel-body"> {{ page.description | default: site.description }} </p>
 
             <a href="#what-is-lorem-ipsum" class="carousel-btn">Home</a>
-            <a href="program" class="carousel-btn">Tables</a>
-            <a href="math" class="carousel-btn">Maths</a>
+            <a href="workshop" class="carousel-btn">Workshop of Heros</a>
+            <a href="math" class="carousel-btn">Maths in Game</a>
         </div>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-          <div class="item active">
-            <!-- <img src="assets/img/img1.jpg" style="width:100%;"> -->
-            <div id="gradGreen2Blue"></div>
-            <!-- <div id="gradRed2Yellow"></div> -->
-          </div>
-
-          <div class="item">
-            <div id="gradBlue2Red"></div>
-          </div>
-
-          <div class="item">
-            <div id="gradRed2Yellow"></div>
-          </div>
-
-          <div class="item">
-            <div id="gradYellow2Green"></div>
-          </div>
+          {% for img in site.data.carousel %}
+            <div class="{{ img.class }}">
+              <img src="assets/img/{{ img.name }}">
+            </div>
+          {% endfor %}
         </div>
 
         <!-- Left and right controls -->

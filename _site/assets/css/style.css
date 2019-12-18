@@ -418,17 +418,17 @@ a:hover { text-decoration: underline; }
 .container-kamn { margin-right: auto; margin-left: auto; }
 
 /* ========================================================================== Options Carousel ========================================================================== */
-.carousel-inner { width: 100%; min-height: 300px; height: 400px; }
+.carousel-inner { width: 100%; min-height: 400px; }
 
-@media screen and (min-width: 64em) { .carousel-inner { height: 400px; } }
+@media screen and (min-width: 64em) { .carousel-inner { height: 300px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) { .carousel-inner { height: 350px; } }
 
 @media screen and (max-width: 42em) { .carousel-inner { height: 325px; } }
 
-.carousel-inner img { position: absolute; height: 100%; min-height: 350px; }
+.carousel-inner img { position: absolute; height: 100%; width: 100%; min-height: 425px; }
 
-.carousel-img { width: 100%; position: absolute; height: 100%; object-fit: cover; }
+.carousel-img { width: 100%; max-width: 100%; position: absolute; height: 100%; object-fit: cover; }
 
 .carousel-caption .carousel-title { width: 120%; margin-left: -10%; color: #ffffff; font-size: 50px; font-weight: 900; text-align: center; vertical-align: center; bottom: auto; }
 
@@ -464,7 +464,7 @@ div.tab button:hover { background-color: #ddd; }
 div.tab button.active { color: #484848; background-color: #ccc; }
 
 /* Style the tab content */
-.tabcontent { display: none; padding: 6px 6px; border: 1px solid #ccc; border-top: none; padding-top: 16px; padding-bottom: 12px; }
+.tabcontent { display: none; width: 100%; padding: 6px 6px; border: 1px solid #ccc; border-top: none; padding-top: 16px; padding-bottom: 12px; }
 
 /* Style the buttons inside the tab */
 .tab button { background-color: inherit; float: center; border: none; outline: none; cursor: pointer; padding: 6px 6px; transition: 0.3s; font-size: 16px; }
@@ -473,15 +473,23 @@ div.tab button.active { color: #484848; background-color: #ccc; }
 
 .button:active:after { padding: 0; margin: 0; opacity: 1; transition: 0s; }
 
-.tg { border-collapse: collapse; border-spacing: 0; border-width: 10px; }
+.tg { width: 100%; border-collapse: collapse; border-spacing: 0; border-width: 10px; }
 
 .tg td { font-size: 18px; padding: 4px 5px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; border-color: #6d6d6d; }
 
 .tg th { font-size: 18px; font-weight: normal; padding: 4px 5px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; border-color: #6d6d6d; }
 
-.tg .tg-lboi { font-size: 18px; border-color: inherit; text-align: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; border-color: darkgray; }
+.tg .tg-lboi { font-size: 18px; border-color: inherit; text-align: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; min-width: 128px; border-color: darkgray; }
 
-.tg .tg-talk { border-color: inherit; text-align: justify; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; border-color: darkgray; }
+.tg .tg-time { font-size: 18px; border-color: inherit; text-align: center; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; min-width: 16rem; border-color: darkgray; }
+
+@media screen and (min-width: 64em) { .tg .tg-time { min-width: 16rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) { .tg .tg-time { min-width: 14rem; } }
+
+@media screen and (max-width: 42em) { .tg .tg-time { min-width: 12rem; } }
+
+.tg .tg-talk { border-color: inherit; text-align: justify; vertical-align: middle; margin-top: 1rem; margin-bottom: 10rem; width: 100%; border-color: darkgray; }
 
 .tg .abstract { font-size: 1.5rem; font-style: italic; margin-bottom: 0rem; }
 

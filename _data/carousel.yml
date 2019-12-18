@@ -1,0 +1,17 @@
+- name: 3_heroes_loadingscreen.png
+  class: item active
+
+- name: artgerm_axe.png
+  class: item
+
+- name: artgerm_es.png
+  class: item
+
+- name: artgerm_invoker.png
+  class: item
+
+- name: artgerm_pa.png
+  class: item
+
+- name: artgerm_wr.png
+  class: item

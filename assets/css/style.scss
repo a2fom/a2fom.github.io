@@ -6,11 +6,11 @@
 
 
 .ul .li{
-	font-style: bold;
+    font-style: bold;
 }
 
 .ol {
-	font-style: bold;
+    font-style: bold;
 }
 
 
@@ -20,10 +20,10 @@
   padding-right: 0px;
 }
 .container-fluid-kamn {
-//   margin-right: auto;
-//   margin-left: auto;
-//   padding-left: 15px;
-//   padding-right: 15px;
+  // margin-right: auto;
+  // margin-left: auto;
+  // padding-left: 15px;
+  // padding-right: 15px;
 }
 .container-kamn {
   margin-right: auto;
@@ -38,35 +38,28 @@
 */
 .carousel-inner{
   width: 100%;
-  min-height: 300px;
-  height: 400px;
-//    height: 100%;
-  
-//  position: absolute;
-  
-  @include large {
-    height: 400px;
-  }
-
-  @include medium {
-    height: 350px;
-  }
-
-  @include small {
-    height: 325px;
-  }
+  // max-width: none;
+  min-height: 400px;
+  // height: 500px;
+  // height: auto;
+    
+  @include large { height: 300px; }
+  @include medium { height: 350px; }
+  @include small { height: 325px; }
   
 }
 .carousel-inner img{
     position: absolute;
     height: 100%;
-    min-height: 350px;
+    width: 100%;
+    // max-width: none;
+    min-height: 425px;
 }
 .carousel-img{
     width: 100%;
+    max-width: 100%;
     position: absolute;
     height: 100%;
-//    min-height: 800px;
     object-fit: cover;
 }
 
@@ -76,9 +69,9 @@
   color: #ffffff;
   font-size: 50px;
   font-weight: 900;
-//   padding: 2rem 1rem;
-//   width:100%;
-//  z-index:10;
+  // padding: 2rem 1rem;
+  // width:100%;
+  // z-index:10;
   text-align:center;
   vertical-align: center;
   bottom:auto;
@@ -88,11 +81,9 @@
     // margin-bottom: 10%;
     // margin-top: -25%;
   }
-
   @include medium {
     font-size: 50px;
   }
-
   @include small {
     font-size: 32px;
   }
@@ -105,17 +96,17 @@
   vertical-align: center;
 
   @include large {
-//    margin-bottom: 7.5%;
+    // margin-bottom: 7.5%;
   }
 
   @include medium {
     font-size: 24px;
-//    margin-bottom: 5%;
+    // margin-bottom: 5%;
   }
 
   @include small {
     font-size: 22px;
-//    margin-bottom: 15%;
+    // margin-bottom: 15%;
   }
 
 }
@@ -179,11 +170,11 @@ div.tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-//  height: 36px;
+  // height: 36px;
   vertical-align: center;
   font-weight: 550;
   color: rgb(169,169,169);
-//  padding-top: -5%;
+  // padding-top: -5%;
 }
 
 /* Change background color of buttons on hover */
@@ -200,12 +191,13 @@ div.tab button.active {
 /* Style the tab content */
 .tabcontent {
   display: none;
+  width: 100%;
   padding: 6px 6px;
   border: 1px solid #ccc;
   border-top: none;
   padding-top: 16px;
   padding-bottom: 12px;
-//   border-color: rgb(255, 109, 109);
+  // border-color: rgb(255, 109, 109);
 }
 
 /* Style the buttons inside the tab */
@@ -243,17 +235,18 @@ div.tab button.active {
 
 // fade effect
 // .tabcontent {
-//   animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  // animation: fadeEffect 1s; /* Fading effect takes 1 second */
 // }
 
 // /* Go from zero to full opacity */
 // @keyframes fadeEffect {
-//   from {opacity: 0;}
-//   to {opacity: 1;}
+  // from {opacity: 0;}
+  // to {opacity: 1;}
 // }
 
 
 .tg {
+    width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
     border-width: 10px;
@@ -284,22 +277,42 @@ div.tab button.active {
     border-color: inherit;
     text-align: center;
     vertical-align: middle;
-	margin-top: 1rem;
-	margin-bottom: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    min-width:128px;
     border-color: rgb(169, 169, 169);
+}
+.tg .tg-time { 
+    font-size: 18px;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    min-width: 16rem;
+    // min-width: 25%;
+    // width: 30%;
+    border-color: rgb(169, 169, 169);
+    
+    @include large { min-width: 16rem; }
+    @include medium { min-width: 14rem; }
+    @include small { min-width: 12rem; }
 }
 .tg .tg-talk { 
     border-color: inherit;
     text-align: justify;
     vertical-align: middle;
-	margin-top: 1rem;
-	margin-bottom: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    // min-width: 48rem;
+    // min-width: 75%;
+     width: 100%;
     border-color: rgb(169, 169, 169);
 }
 .tg .abstract{
-	font-size: 1.5rem;
-	font-style: italic;
-	margin-bottom: 0rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 0rem;
 }
 
 
@@ -323,8 +336,8 @@ div.tab button.active {
     font-size: 1.2rem;
     font-weight: normal;
     padding: 2px 3px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-style: solid;
     border-width: 1px;
     overflow: hidden;
@@ -346,9 +359,9 @@ div.tab button.active {
     border-color: rgba(240,240,240,0.875);
 }
 //.tg .poster-abstract{
-//	font-size: 1.5rem;
-//	font-style: italic;
-//	margin-bottom: 0rem;
+//    font-size: 1.5rem;
+//    font-style: italic;
+//    margin-bottom: 0rem;
 //}
 
 
