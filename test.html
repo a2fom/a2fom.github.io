@@ -1,0 +1,222 @@
+<tr>
+<td>
+<div class="icon_container">
+  <img src="assets/heros/{{ site.data.heros.toc[0].heros[number.number].filename }}" alt="{{ site.data.heros.toc[0].heros[number.number].name }}" style="width:100%;">
+  <!-- <div class="centered"> <span class="hero_name">{{ entry.name }} {{ number.number }}</span> </div> -->
+  <div class="centered"> <span class="hero_name"> {{ site.data.heros.toc[0].heros[number.number].name }}</span> </div>
+</div>
+</td>
+</tr>
+
+
+
+
+<!-- Show all talks -->
+<div id="Wall">
+    {% for item in site.data.heros.toc %}
+    <table class="hero_tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ item.type }}</th>
+      </tr>
+      {% for entry in item.heros %}
+      <tr>
+        {% for number in site.data.heros_nCol %}
+        <td>
+        <div class="icon_container">
+          <img src="assets/heros/{{ site.data.heros.toc[0].heros[number.number].filename }}" alt="{{ site.data.heros.toc[0].heros[number.number].name }}" style="width:100%;">
+          <!-- <div class="centered"> <span class="hero_name">{{ entry.name }} {{ number.number }}</span> </div> -->
+          <div class="centered"> <span class="hero_name"> {{ site.data.heros.toc[0].heros[number.number].name }}</span> </div>
+        </div>
+        </td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+    {% endfor %}
+</div>
+
+
+
+<!-- Show all talks -->
+<!-- <div id="Wall"> -->
+    <!-- {% for item in site.data.heros.toc %} -->
+    <!-- <table class="tg"> -->
+      <!-- <tr> -->
+        <!-- <th colspan="8" style="text-align:center;">{{ item.type }}</th> -->
+        <!-- <th ></th> -->
+      <!-- </tr> -->
+      <!-- {% for entry in item.heros %} -->
+        <!-- <tr> -->
+          <!-- <td> <a title="{{ entry.name }}"><img style="text-align:center; width:150px;" src="assets/heros/{{ entry.filename }}"></a> <span style="font-size:16px; color:white; text-shadow:-1px 0 0.2em black, 0 1px 0.2em black, 1px 0 0.2em black, 0 -1px 0.2em black;">{{ entry.name }}</span> </td> -->
+        <!-- </tr> -->
+      <!-- {% endfor %} -->
+    <!-- </table> -->
+    <!-- {% endfor %} -->
+<!-- </div> -->
+
+
+<!-- <div style="width:150px; height:84px; display:inline-block; overflow:hidden; margin:1px">
+    <div style="position:relative;">
+        <a title="Anti-Mage"><img alt="Anti-Mage icon.png" src="" decoding="async" width="150" height="84" srcset="" /></a>
+    </div>
+    <div style="pointer-events:none; position:relative; width:150px; height:84px; top:-84px; display:flex; justify-content:center; align-items:flex-end; line-height:30px;">
+            <span style="font-size:17px; color:white; text-shadow:-1px 0 0.2em black, 0 1px 0.2em black, 1px 0 0.2em black, 0 -1px 0.2em black;">Anti-Mage</span>
+    </div>
+</div> -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- Tab content -->
+<div id="Agility" class="tabcontent">
+    <table class="tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ site.data.heros.toc[0].type }}</th>
+      </tr>
+      {% for group in site.data.heros.toc[0].groups %}
+          <!-- {{ group.group }}  -->
+          <tr>
+              {% for hero in group.heros %}
+              <!-- {{ hero }} -->
+              <td>
+              <div class="icon_container">
+                <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+                <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+              </div>
+              </td>
+              {% endfor %}
+          </tr>
+      {% endfor %}
+    </table>
+</div>
+
+
+<!-- Tab content -->
+<div id="Intelligence" class="tabcontent">
+    <table class="tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ site.data.heros.toc[1].type }}</th>
+      </tr>
+      {% for group in site.data.heros.toc[1].groups %}
+          <!-- {{ group.group }}  -->
+          <tr>
+              {% for hero in group.heros %}
+              <!-- {{ hero }} -->
+              <td>
+              <div class="icon_container">
+                <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+                <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+              </div>
+              </td>
+              {% endfor %}
+          </tr>
+      {% endfor %}
+    </table>
+</div>
+
+
+<!-- Tab content -->
+<div id="Strength" class="tabcontent">
+    <table class="tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ site.data.heros.toc[2].type }}</th>
+      </tr>
+      {% for group in site.data.heros.toc[2].groups %}
+          <!-- {{ group.group }}  -->
+          <tr>
+              {% for hero in group.heros %}
+              <!-- {{ hero }} -->
+              <td>
+              <div class="icon_container">
+                <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+                <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+              </div>
+              </td>
+              {% endfor %}
+          </tr>
+      {% endfor %}
+    </table>
+</div>
+    
+    
+    
+    
+---
+layout: heros 
+title: "Wall of the Heros"
+description: "Agility, Intelligence and Strength" 
+---
+
+
+
+## Wall of heros
+
+
+<!-- Tab links -->
+<div class="hero_tab">
+    <button class="tablinks" onclick="openDate(event, 'Agility')" id="defaultOpen" style="color:#1acf8c;"> Agility </button>
+    <button class="tablinks" onclick="openDate(event, 'Intelligence')" style="color:#1a8cff;"> Intelligence </button>
+    <button class="tablinks" onclick="openDate(event, 'Strength')" style="color:#df1a8c;"> Strength </button>
+    <button class="tablinks" onclick="openDate(event, 'Showall')" style="color:#6600ff;"> Show all </button>
+</div>
+
+
+<!-- Tab content -->
+{% for item in site.data.heros.toc %}
+<div id="{{ item.type }}" class="hero_tabcontent">
+    <table class="hero_tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ item.type }}</th>
+      </tr>
+      {% for group in item.groups %}
+          <tr>
+              {% for hero in group.heros %}
+              <!-- {{ hero.name }} -->
+              <td>
+              <div class="icon_container">
+                <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+                <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+              </div>
+              </td>
+              {% endfor %}
+          </tr>
+      {% endfor %}
+    </table>
+</div>
+{% endfor %}
+
+
+<!-- Show all heros -->
+<div id="Showall" class="tabcontent">
+    {% for item in site.data.heros.toc %}
+    <table class="hero_tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ item.type }}</th>
+      </tr>
+      {% for group in item.groups %}
+          <tr>
+              {% for hero in group.heros %}
+              <!-- {{ hero.name }} -->
+              <td>
+              <div class="icon_container">
+                <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+                <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+              </div>
+              </td>
+              {% endfor %}
+          </tr>
+      {% endfor %}
+    </table>
+    {% endfor %}
+</div>
+
+
+
+
+  
+

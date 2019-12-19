@@ -1,6 +1,6 @@
 toc:
     - title: cDay1
-      date: Mon 3 Aug
+      date: Day 1
       talks:
           - name: A. Alpha
             ttime: xx - xx
@@ -24,7 +24,7 @@ toc:
 
 
     - title: cDay2
-      date: Tue 4 Aug
+      date: Day 2
       talks:
           - name: E. Echo
             ttime: xx - xx
@@ -47,7 +47,7 @@ toc:
             tabstract: The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
 
     - title: cDay3
-      date: Wed 5 Aug
+      date: Day 3
       talks:
           - name: I. India
             ttime: xx - xx
@@ -71,7 +71,7 @@ toc:
 
 
     - title: cDay4
-      date: Thu 6 Aug
+      date: Day 4
       talks:
           - name: M. Mike
             ttime: xx - xx
@@ -95,7 +95,7 @@ toc:
 
 
     - title: cDay5
-      date: Fri 7 Aug
+      date: Day 5
       talks:
           - name: Q. Quebec
             ttime: xx - xx

@@ -32,14 +32,15 @@
             <p class="carousel-body"> {{ page.description | default: site.description }} </p>
 
             <a href="index" class="btn">Home</a>
-            <a href="#talks" class="btn">Schedule</a>
+            <a href="#talks" class="btn">Walls</a>
             <a href="#posters" class="btn">Details</a>
         </div>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <div id="gradGreen2Blue"></div>
+            <!-- <div id="gradGreen2Blue"></div> -->
+            <img src="assets/img/mini_heroes.jpg"> </img>
           </div>
       </div>
     </div>
@@ -64,7 +65,7 @@
         document.getElementById(pmDate).style.display = "block";
         evt.currentTarget.className += " active";
       }
-
+      
       // Get the element with id="defaultOpen" and click on it
       document.getElementById("defaultOpen").click();
     </script>

@@ -1,0 +1,671 @@
+toc:
+    - type: Agility
+      groups:
+        - group: Group 1
+          heros:
+            - name: Anti~Mage
+              categary: A
+              number: 1
+              filename: 150px-Anti-Mage_icon.png
+
+            - name: Arc_Warden
+              categary: A
+              number: 2
+              filename: 150px-Arc_Warden_icon.png
+
+            - name: Bloodseeker
+              categary: A
+              number: 3
+              filename: 150px-Bloodseeker_icon.png
+
+            - name: Bounty_Hunter
+              categary: A
+              number: 4
+              filename: 150px-Bounty_Hunter_icon.png
+
+            - name: Broodmother
+              categary: A
+              number: 5
+              filename: 150px-Broodmother_icon.png
+
+            - name: Clinkz
+              categary: A
+              number: 6
+              filename: 150px-Clinkz_icon.png
+
+        - group: Group 2
+          heros:
+            - name: Drow_Ranger
+              categary: A
+              number: 7
+              filename: 150px-Drow_Ranger_icon.png
+
+            - name: Ember_Spirit
+              categary: A
+              number: 8
+              filename: 150px-Ember_Spirit_icon.png
+
+            - name: Faceless_Void
+              categary: A
+              number: 9
+              filename: 150px-Faceless_Void_icon.png
+
+            - name: Gyrocopter
+              categary: A
+              number: 10
+              filename: 150px-Gyrocopter_icon.png
+
+            - name: Juggernaut
+              categary: A
+              number: 11
+              filename: 150px-Juggernaut_icon.png
+
+            - name: Lone_Druid
+              categary: A
+              number: 12
+              filename: 150px-Lone_Druid_icon.png
+
+        - group: Group 3
+          heros:
+            - name: Luna
+              categary: A
+              number: 13
+              filename: 150px-Luna_icon.png
+
+            - name: Medusa
+              categary: A
+              number: 14
+              filename: 150px-Medusa_icon.png
+
+            - name: Meepo
+              categary: A
+              number: 15
+              filename: 150px-Meepo_icon.png
+
+            - name: Mirana
+              categary: A
+              number: 16
+              filename: 150px-Mirana_icon.png
+
+            - name: Monkey_King
+              categary: A
+              number: 17
+              filename: 150px-Monkey_King_icon.png
+
+            - name: Morphling
+              categary: A
+              number: 18
+              filename: 150px-Morphling_icon.png
+
+        - group: Group 4
+          heros:
+            - name: Naga_Siren
+              categary: A
+              number: 19
+              filename: 150px-Naga_Siren_icon.png
+
+            - name: Nyx_Assassin
+              categary: A
+              number: 20
+              filename: 150px-Nyx_Assassin_icon.png
+
+            - name: Pangolier
+              categary: A
+              number: 21
+              filename: 150px-Pangolier_icon.png
+
+            - name: Phantom_Assassin
+              categary: A
+              number: 22
+              filename: 150px-Phantom_Assassin_icon.png
+
+            - name: Phantom_Lancer
+              categary: A
+              number: 23
+              filename: 150px-Phantom_Lancer_icon.png
+
+            - name: Razor
+              categary: A
+              number: 24
+              filename: 150px-Razor_icon.png
+ 
+        - group: Group 5
+          heros:
+            - name: Riki
+              categary: A
+              number: 25
+              filename: 150px-Riki_icon.png
+
+            - name: Shadow_Fiend
+              categary: A
+              number: 26
+              filename: 150px-Shadow_Fiend_icon.png
+
+            - name: Slark
+              categary: A
+              number: 27
+              filename: 150px-Slark_icon.png
+
+            - name: Sniper
+              categary: A
+              number: 28
+              filename: 150px-Sniper_icon.png
+
+            - name: Spectre
+              categary: A
+              number: 29
+              filename: 150px-Spectre_icon.png
+
+            - name: Templar_Assassin
+              categary: A
+              number: 30
+              filename: 150px-Templar_Assassin_icon.png
+
+        - group: Group 6
+          heros:
+              - name: Terrorblade
+                categary: A
+                number: 31
+                filename: 150px-Terrorblade_icon.png
+
+              - name: Troll_Warlord
+                categary: A
+                number: 32
+                filename: 150px-Troll_Warlord_icon.png
+
+              - name: Ursa
+                categary: A
+                number: 33
+                filename: 150px-Ursa_icon.png
+
+              - name: Venomancer
+                categary: A
+                number: 34
+                filename: 150px-Venomancer_icon.png
+
+              - name: Viper
+                categary: A
+                number: 35
+                filename: 150px-Viper_icon.png
+
+              - name: Void_Spirit
+                categary: A
+                number: 36
+                filename: 150px-Void_Spirit_icon.png
+
+        - group: Group 7
+          heros:
+            - name: Weaver
+              categary: A
+              number: 37
+              filename: 150px-Weaver_icon.png
+
+
+    - type: Intelligence
+      groups:
+          - group: Group 1
+            heros:
+            - name: Ancient_Apparition
+              categary: W
+              number: 1
+              filename: 150px-Ancient_Apparition_icon.png
+
+            - name: Bane
+              categary: W
+              number: 2
+              filename: 150px-Bane_icon.png
+
+            - name: Batrider
+              categary: W
+              number: 3
+              filename: 150px-Batrider_icon.png
+
+            - name: Chen
+              categary: W
+              number: 4
+              filename: 150px-Chen_icon.png
+
+            - name: Crystal_Maiden
+              categary: W
+              number: 5
+              filename: 150px-Crystal_Maiden_icon.png
+
+            - name: Dark_Seer
+              categary: W
+              number: 6
+              filename: 150px-Dark_Seer_icon.png
+
+          - group: Group 2
+            heros:
+            - name: Dark_Willow
+              categary: W
+              number: 7
+              filename: 150px-Dark_Willow_icon.png
+
+            - name: Dazzle
+              categary: W
+              number: 8
+              filename: 150px-Dazzle_icon.png
+
+            - name: Death_Prophet
+              categary: W
+              number: 9
+              filename: 150px-Death_Prophet_icon.png
+
+            - name: Disruptor
+              categary: W
+              number: 10
+              filename: 150px-Disruptor_icon.png
+
+            - name: Enchantress
+              categary: W
+              number: 11
+              filename: 150px-Enchantress_icon.png
+
+            - name: Enigma
+              categary: W
+              number: 12
+              filename: 150px-Enigma_icon.png
+
+          - group: Group 3
+            heros:
+            - name: Grimstroke
+              categary: W
+              number: 13
+              filename: 150px-Grimstroke_icon.png
+
+            - name: Invoker
+              categary: W
+              number: 14
+              filename: 150px-Invoker_icon.png
+
+            - name: Jakiro
+              categary: W
+              number: 15
+              filename: 150px-Jakiro_icon.png
+
+            - name: Keeper_of_the_Light
+              categary: W
+              number: 16
+              filename: 150px-Keeper_of_the_Light_icon.png
+
+            - name: Leshrac
+              categary: W
+              number: 17
+              filename: 150px-Leshrac_icon.png
+
+            - name: Lich
+              categary: W
+              number: 18
+              filename: 150px-Lich_icon.png
+
+          - group: Group 4
+            heros:
+            - name: Lina
+              categary: W
+              number: 19
+              filename: 150px-Lina_icon.png
+
+            - name: Lion
+              categary: W
+              number: 20
+              filename: 150px-Lion_icon.png
+
+            - name: Nature's_Prophet
+              categary: W
+              number: 21
+              filename: 150px-Nature's_Prophet_icon.png
+
+            - name: Necrophos
+              categary: W
+              number: 22
+              filename: 150px-Necrophos_icon.png
+
+            - name: Ogre_Magi
+              categary: W
+              number: 23
+              filename: 150px-Ogre_Magi_icon.png
+
+            - name: Oracle
+              categary: W
+              number: 24
+              filename: 150px-Oracle_icon.png
+
+          - group: Group 5
+            heros:
+            - name: Outworld_Devourer
+              categary: W
+              number: 25
+              filename: 150px-Outworld_Devourer_icon.png
+
+            - name: Puck
+              categary: W
+              number: 26
+              filename: 150px-Puck_icon.png
+
+            - name: Pugna
+              categary: W
+              number: 27
+              filename: 150px-Pugna_icon.png
+
+            - name: Queen_of_Pain
+              categary: W
+              number: 28
+              filename: 150px-Queen_of_Pain_icon.png
+
+            - name: Rubick
+              categary: W
+              number: 29
+              filename: 150px-Rubick_icon.png
+
+            - name: Shadow_Demon
+              categary: W
+              number: 30
+              filename: 150px-Shadow_Demon_icon.png
+
+          - group: Group 6
+            heros:
+            - name: Shadow_Shaman
+              categary: W
+              number: 31
+              filename: 150px-Shadow_Shaman_icon.png
+
+            - name: Silencer
+              categary: W
+              number: 32
+              filename: 150px-Silencer_icon.png
+
+            - name: Skywrath_Mage
+              categary: W
+              number: 33
+              filename: 150px-Skywrath_Mage_icon.png
+
+            - name: Storm_Spirit
+              categary: W
+              number: 34
+              filename: 150px-Storm_Spirit_icon.png
+
+            - name: Techies
+              categary: W
+              number: 35
+              filename: 150px-Techies_icon.png
+
+            - name: Tinker
+              categary: W
+              number: 36
+              filename: 150px-Tinker_icon.png
+
+          - group: Group 7
+            heros:
+            - name: Vengeful_Spirit
+              categary: W
+              number: 37
+              filename: 150px-Vengeful_Spirit_icon.png
+
+            - name: Visage
+              categary: W
+              number: 38
+              filename: 150px-Visage_icon.png
+
+            - name: Warlock
+              categary: W
+              number: 39
+              filename: 150px-Warlock_icon.png
+
+            - name: Windranger
+              categary: W
+              number: 40
+              filename: 150px-Windranger_icon.png
+
+            - name: Winter_Wyvern
+              categary: W
+              number: 41
+              filename: 150px-Winter_Wyvern_icon.png
+
+            - name: Witch_Doctor
+              categary: W
+              number: 42
+              filename: 150px-Witch_Doctor_icon.png
+
+          - group: Group 8
+            heros:
+            - name: Zeus
+              categary: W
+              number: 43
+              filename: 150px-Zeus_icon.png
+
+
+    - type: Strength
+      groups:
+          - group: Group 1
+            heros:
+            - name: Abaddon
+              categary: S
+              number: 1
+              filename: 150px-Abaddon_icon.png
+
+            - name: Alchemist
+              categary: S
+              number: 2
+              filename: 150px-Alchemist_icon.png
+
+            - name: Axe
+              categary: S
+              number: 3
+              filename: 150px-Axe_icon.png
+
+            - name: Beastmaster
+              categary: S
+              number: 4
+              filename: 150px-Beastmaster_icon.png
+
+            - name: Brewmaster
+              categary: S
+              number: 5
+              filename: 150px-Brewmaster_icon.png
+
+            - name: Bristleback
+              categary: S
+              number: 6
+              filename: 150px-Bristleback_icon.png
+
+          - group: Group 2
+            heros:
+            - name: Centaur_Warrunner
+              categary: S
+              number: 7
+              filename: 150px-Centaur_Warrunner_icon.png
+
+            - name: Chaos_Knight
+              categary: S
+              number: 8
+              filename: 150px-Chaos_Knight_icon.png
+
+            - name: Clockwerk
+              categary: S
+              number: 9
+              filename: 150px-Clockwerk_icon.png
+
+            - name: Doom
+              categary: S
+              number: 10
+              filename: 150px-Doom_icon.png
+
+            - name: Dragon_Knight
+              categary: S
+              number: 11
+              filename: 150px-Dragon_Knight_icon.png
+
+            - name: Earth_Spirit
+              categary: S
+              number: 12
+              filename: 150px-Earth_Spirit_icon.png
+
+          - group: Group 3
+            heros:
+            - name: Earthshaker
+              categary: S
+              number: 13
+              filename: 150px-Earthshaker_icon.png
+
+            - name: Elder_Titan
+              categary: S
+              number: 14
+              filename: 150px-Elder_Titan_icon.png
+
+            - name: Huskar
+              categary: S
+              number: 15
+              filename: 150px-Huskar_icon.png
+
+            - name: Io
+              categary: S
+              number: 16
+              filename: 150px-Io_icon.png
+
+            - name: Kunkka
+              categary: S
+              number: 17
+              filename: 150px-Kunkka_icon.png
+
+            - name: Legion_Commander
+              categary: S
+              number: 18
+              filename: 150px-Legion_Commander_icon.png
+
+          - group: Group 4
+            heros:
+            - name: Lifestealer
+              categary: S
+              number: 19
+              filename: 150px-Lifestealer_icon.png
+
+            - name: Lycan
+              categary: S
+              number: 20
+              filename: 150px-Lycan_icon.png
+
+            - name: Magnus
+              categary: S
+              number: 21
+              filename: 150px-Magnus_icon.png
+
+            - name: Mars
+              categary: S
+              number: 22
+              filename: 150px-Mars_icon.png
+
+            - name: Night_Stalker
+              categary: S
+              number: 23
+              filename: 150px-Night_Stalker_icon.png
+
+            - name: Omniknight
+              categary: S
+              number: 24
+              filename: 150px-Omniknight_icon.png
+
+          - group: Group 5
+            heros:
+            - name: Phoenix
+              categary: S
+              number: 25
+              filename: 150px-Phoenix_icon.png
+
+            - name: Pudge
+              categary: S
+              number: 26
+              filename: 150px-Pudge_icon.png
+
+            - name: Sand_King
+              categary: S
+              number: 27
+              filename: 150px-Sand_King_icon.png
+
+            - name: Slardar
+              categary: S
+              number: 28
+              filename: 150px-Slardar_icon.png
+
+            - name: Snapfire
+              categary: S
+              number: 29
+              filename: 150px-Snapfire_icon.png
+
+            - name: Spirit_Breaker
+              categary: S
+              number: 30
+              filename: 150px-Spirit_Breaker_icon.png
+
+          - group: Group 6
+            heros:
+            - name: Sven
+              categary: S
+              number: 31
+              filename: 150px-Sven_icon.png
+
+            - name: Tidehunter
+              categary: S
+              number: 32
+              filename: 150px-Tidehunter_icon.png
+
+            - name: Timbersaw
+              categary: S
+              number: 33
+              filename: 150px-Timbersaw_icon.png
+
+            - name: Tiny
+              categary: S
+              number: 34
+              filename: 150px-Tiny_icon.png
+
+            - name: Treant_Protector
+              categary: S
+              number: 35
+              filename: 150px-Treant_Protector_icon.png
+
+            - name: Tusk
+              categary: S
+              number: 36
+              filename: 150px-Tusk_icon.png
+
+          - group: Group 7
+            heros:
+            - name: Underlord
+              categary: S
+              number: 37
+              filename: 150px-Underlord_icon.png
+
+            - name: Undying
+              categary: S
+              number: 38
+              filename: 150px-Undying_icon.png
+
+            - name: Wraith_King
+              categary: S
+              number: 39
+              filename: 150px-Wraith_King_icon.png
+
+
+# <div>
+# {% if site.data.heros.toc[0] %}
+#   {% for item in site.data.heros.toc %}
+#     <h3>{{ item.type }}</h3>
+#       {% if item.groups[0] %}
+#         <ul>
+#           {% for entry in item.groups %}
+#               <li><a href="">{{ entry.group }}</a>
+#                 {% if entry.heros[0] %}
+#                   <ul>
+#                   {% for subentry in entry.heros %}
+#                       <li><a href="">{{ subentry.name }}</a></li>
+#                   {% endfor %}
+#                   </ul>
+#                 {% endif %}
+#               </li>
+#           {% endfor %}
+#         </ul>
+#       {% endif %}
+#     {% endfor %}
+# {% endif %}
+# </div>

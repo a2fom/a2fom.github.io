@@ -6,7 +6,7 @@ description: "Dota 2"
 
 
 
-<span style="color:rgb(200,200,200)">The contents below are from [Wikipedia](https://en.wikipedia.org/wiki/Dota_2).</span>
+<span style="color:rgb(192,192,192)">The contents of this site are from [Wikipedia](https://en.wikipedia.org/wiki/Dota_2), [Liquipedia](https://liquipedia.net) and [DotaWiki](https://dota2.gamepedia.com).</span>
 
 
 **Dota 2** is a multiplayer online battle arena (MOBA) video game developed and published by Valve. The game is a sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play. During a match, players collect experience points and items for their heroes to successfully defeat the opposing team's heroes in player versus player combat. A team wins by being the first to destroy the other team's "Ancient", a large structure located within their base. 
@@ -20,3 +20,6 @@ Dota 2 has a large esports scene, with teams from around the world playing in va
 
 ## Quality
 Despite some criticism going towards its steep learning curve and overall complexity, Dota 2 was praised for its rewarding gameplay, production quality, and faithfulness to its predecessor, with many considering it to be one of the greatest video games of all time. Since its release, it has been one of the most played games on Steam, with over a million concurrent players at its peak. The popularity of the game has led to official merchandise for it being produced, including apparel, accessories, and toys, as well as promotional tie-ins to other games and media. The game also allows for the community to create their own gamemodes, maps, and cosmetics, which are uploaded to the Steam Workshop. Two spinoff games based on Dota 2 were released by Valve in the late 2010s, Artifact and Dota Underlords. Dota 2 has also been used in machine learning experiments, with a team of bots known as the OpenAI Five showing the capability to defeat professional players. 
+
+
+

@@ -3,15 +3,61 @@
 
 - name: artgerm_axe.jpg
   class: item
-
 - name: artgerm_es.jpg
   class: item
-
 - name: artgerm_invoker.jpg
   class: item
-
 - name: artgerm_pa.jpg
   class: item
-
 - name: artgerm_wr.jpg
+  class: item
+- name: clash_of_heroes.jpg
+  class: item
+- name: clash_of_heroes_ii.jpg
+  class: item
+- name: direancient_loadingscreen.jpg
+  class: item
+- name: donkey_loadingscreen.jpg
+  class: item
+- name: dota_keyart_treant_loadingscreen.jpg
+  class: item
+- name: dota_keyart_windrangerjugg_loadingscreen.jpg
+  class: item
+- name: fallenprincess_loadingscreen.jpg
+  class: item
+- name: fireborn_hud_loading_screen.jpg
+  class: item
+- name: fireborn_loading_screen.jpg
+  class: item
+- name: hiddenflower_loadingscreen.jpg
+  class: item
+- name: hs_abysm_dominator_loadingscreen.jpg
+  class: item
+- name: hs_blueheart_maiden_loadingscreen.jpg
+  class: item
+- name: hs_fiery_slayer_loadingscreen.jpg
+  class: item
+- name: hs_flying_arrow_loadingscreen.jpg
+  class: item
+- name: lets_race_loading_screen.jpg
+  class: item
+- name: midlane_loadingscreen.jpg
+  class: item
+- name: mini_heroes.jpg
+  class: item
+- name: pyxl_ancients.jpg
+  class: item
+- name: radiantancient_loadingscreen.jpg
+  class: item
+- name: roshan_greed.jpg
+  class: item
+- name: roshan_pw.jpg
+  class: item
+- name: roshan_pwa.jpg
+  class: item
+- name: roshan_rage.jpg
+  class: item
+- name: toplane_loadingscreen.jpg
+  class: item
+- name: valve_temp_item_screen.jpg
   class: item

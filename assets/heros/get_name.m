@@ -1,0 +1,387 @@
+clear all
+close all
+clc
+%%
+clc;
+
+% list = dir;
+% 
+% list = list(4: end-1);
+% 
+% for i=1:numel(list)
+%     disp(['- name: ', list(i).name(7 : end-9)]);
+%     disp(['  filename: ', list(i).name]);
+%     
+%     fprintf('\n')
+% end
+
+list1 = {'150px-Anti-Mage_icon.png'; 
+'150px-Arc_Warden_icon.png'; 
+'150px-Bloodseeker_icon.png'; 
+'150px-Bounty_Hunter_icon.png'; 
+'150px-Broodmother_icon.png'; 
+'150px-Clinkz_icon.png'; 
+'150px-Drow_Ranger_icon.png'; 
+'150px-Ember_Spirit_icon.png'; 
+'150px-Faceless_Void_icon.png'; 
+'150px-Gyrocopter_icon.png'; 
+'150px-Juggernaut_icon.png'; 
+'150px-Lone_Druid_icon.png'; 
+'150px-Luna_icon.png'; 
+'150px-Medusa_icon.png'; 
+'150px-Meepo_icon.png'; 
+'150px-Mirana_icon.png'; 
+'150px-Monkey_King_icon.png'; 
+'150px-Morphling_icon.png'; 
+'150px-Naga_Siren_icon.png'; 
+'150px-Nyx_Assassin_icon.png'; 
+'150px-Pangolier_icon.png'; 
+'150px-Phantom_Assassin_icon.png'; 
+'150px-Phantom_Lancer_icon.png'; 
+'150px-Razor_icon.png'; 
+'150px-Riki_icon.png'; 
+'150px-Shadow_Fiend_icon.png'; 
+'150px-Slark_icon.png'; 
+'150px-Sniper_icon.png'; 
+'150px-Spectre_icon.png'; 
+'150px-Templar_Assassin_icon.png'; 
+'150px-Terrorblade_icon.png'; 
+'150px-Troll_Warlord_icon.png'; 
+'150px-Ursa_icon.png'; 
+'150px-Venomancer_icon.png'; 
+'150px-Viper_icon.png'; 
+'150px-Void_Spirit_icon.png'; 
+'150px-Weaver_icon.png'; 
+'150px-Abaddon_icon.png'; 
+'150px-Alchemist_icon.png'; 
+'150px-Axe_icon.png'; 
+'150px-Beastmaster_icon.png'; 
+'150px-Brewmaster_icon.png'; 
+'150px-Bristleback_icon.png'; 
+'150px-Centaur_Warrunner_icon.png'; 
+'150px-Chaos_Knight_icon.png'; 
+'150px-Clockwerk_icon.png'; 
+'150px-Doom_icon.png'; 
+'150px-Dragon_Knight_icon.png'; 
+'150px-Earth_Spirit_icon.png'; 
+'150px-Earthshaker_icon.png'; 
+'150px-Elder_Titan_icon.png'; 
+'150px-Huskar_icon.png'; 
+'150px-Io_icon.png'; 
+'150px-Kunkka_icon.png'; 
+'150px-Legion_Commander_icon.png'; 
+'150px-Lifestealer_icon.png'; 
+'150px-Lycan_icon.png'; 
+'150px-Magnus_icon.png'; 
+'150px-Mars_icon.png'; 
+'150px-Night_Stalker_icon.png'; 
+'150px-Omniknight_icon.png'; 
+'150px-Phoenix_icon.png'; 
+'150px-Pudge_icon.png'; 
+'150px-Sand_King_icon.png'; 
+'150px-Slardar_icon.png'; 
+'150px-Snapfire_icon.png'; 
+'150px-Spirit_Breaker_icon.png'; 
+'150px-Sven_icon.png'; 
+'150px-Tidehunter_icon.png'; 
+'150px-Timbersaw_icon.png'; 
+'150px-Tiny_icon.png'; 
+'150px-Treant_Protector_icon.png'; 
+'150px-Tusk_icon.png'; 
+'150px-Underlord_icon.png'; 
+'150px-Undying_icon.png'; 
+'150px-Wraith_King_icon.png'; 
+'150px-Ancient_Apparition_icon.png'; 
+'150px-Bane_icon.png'; 
+'150px-Batrider_icon.png'; 
+'150px-Chen_icon.png'; 
+'150px-Crystal_Maiden_icon.png'; 
+'150px-Dark_Seer_icon.png'; 
+'150px-Dark_Willow_icon.png'; 
+'150px-Dazzle_icon.png'; 
+'150px-Death_Prophet_icon.png'; 
+'150px-Disruptor_icon.png'; 
+'150px-Enchantress_icon.png'; 
+'150px-Enigma_icon.png'; 
+'150px-Grimstroke_icon.png'; 
+'150px-Invoker_icon.png'; 
+'150px-Jakiro_icon.png'; 
+'150px-Keeper_of_the_Light_icon.png'; 
+'150px-Leshrac_icon.png'; 
+'150px-Lich_icon.png'; 
+'150px-Lina_icon.png'; 
+'150px-Lion_icon.png'; 
+'150px-Nature''s_Prophet_icon.png'; 
+'150px-Necrophos_icon.png'; 
+'150px-Ogre_Magi_icon.png'; 
+'150px-Oracle_icon.png'; 
+'150px-Outworld_Devourer_icon.png'; 
+'150px-Puck_icon.png'; 
+'150px-Pugna_icon.png'; 
+'150px-Queen_of_Pain_icon.png'; 
+'150px-Rubick_icon.png'; 
+'150px-Shadow_Demon_icon.png'; 
+'150px-Shadow_Shaman_icon.png'; 
+'150px-Silencer_icon.png'; 
+'150px-Skywrath_Mage_icon.png'; 
+'150px-Storm_Spirit_icon.png'; 
+'150px-Techies_icon.png'; 
+'150px-Tinker_icon.png'; 
+'150px-Vengeful_Spirit_icon.png'; 
+'150px-Visage_icon.png'; 
+'150px-Warlock_icon.png'; 
+'150px-Windranger_icon.png'; 
+'150px-Winter_Wyvern_icon.png'; 
+'150px-Witch_Doctor_icon.png'; 
+'150px-Zeus_icon.png'; };
+
+list2 = { 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'A';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'S';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';
+ 'W';};
+
+num_ = [1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43];
+
+
+for i=1:numel(list1)
+    name = list1{i};
+    disp(['- name: ', name(7 : end-9)]);
+    disp(['  categary: ', list2{i}]);
+    disp(['  number: ' num2str(num_(i))]);
+    disp(['  filename: ', name]);
+
+    fprintf('\n')
+end
