@@ -1,3 +1,70 @@
+## Wall of heros
+<!--Old wall of heros -->
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openDate(event, 'Agility')" id="defaultOpen" style="color:#1acf8c;"> Agility </button>
+    <button class="tablinks" onclick="openDate(event, 'Intelligence')" style="color:#1a8cff;"> Intelligence </button>
+    <button class="tablinks" onclick="openDate(event, 'Strength')" style="color:#df1a8c;"> Strength </button>
+    <button class="tablinks" onclick="openDate(event, 'Showall')" style="color:#6600ff;"> Show all </button>
+</div>
+
+
+
+<!-- Tab content -->
+{% for item in site.data.heros.toc %}
+<div id="{{ item.type }}" class="tabcontent">
+    <table class="tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ item.type }}</th>
+      </tr>
+      {% for group in item.groups %}
+          <tr>
+              {% for hero in group.heros %}
+              <!-- {{ hero.name }} -->
+              <td>
+              <div class="icon_container">
+                <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+                <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+              </div>
+              </td>
+              {% endfor %}
+          </tr>
+      {% endfor %}
+    </table>
+</div>
+{% endfor %}
+
+
+
+<!-- Show all heros -->
+<div id="Showall" class="tabcontent">
+    {% for item in site.data.heros.toc %}
+    <table class="hero_tg">
+      <tr>
+      <th colspan="6" style="text-align:center;">{{ item.type }}</th>
+      </tr>
+      {% for group in item.groups %}
+      <tr>
+          {% for hero in group.heros %}
+          <td>
+          <div class="icon_container">
+            <img src="assets/heros/{{ hero.filename }}" alt="{{ hero.name }}" style="width:100%;">
+            <div class="centered"> <span class="hero_name"> {{ hero.name }}</span> </div>
+          </div>
+          </td>
+          {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+    {% endfor %}
+</div>
+
+
+
+
+<!--asdfjsaklfjajgiojaeognkjadglka -->
+
 <tr>
 <td>
 <div class="icon_container">

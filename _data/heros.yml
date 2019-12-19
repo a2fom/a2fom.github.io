@@ -1,37 +1,46 @@
 toc:
     - type: Agility
+      style: agility
       groups:
         - group: Group 1
           heros:
-            - name: Anti~Mage
+            - name: Anti-Mage
               categary: A
               number: 1
               filename: 150px-Anti-Mage_icon.png
+              lore: "The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms. Ascetic and pragmatic, in their remote monastic eyrie they remained aloof from mundane strife, wrapped in meditation that knew no gods or elements of magic. Then came the Legion of the Dead God, crusaders with a sinister mandate to replace all local worship with their Unliving Lord's poisonous nihilosophy. From a landscape that had known nothing but blood and battle for a thousand years, they tore the souls and bones of countless fallen legions and pitched them against Turstarkuri. The monastery stood scarcely a fortnight against the assault, and the few monks who bothered to surface from their meditations believed the invaders were but demonic visions sent to distract them from meditation. They died where they sat on their silken cushions. Only one youth survived—a pilgrim who had come as an acolyte, seeking wisdom, but had yet to be admitted to the monastery. He watched in horror as the monks to whom he had served tea and nettles were first slaughtered, then raised to join the ranks of the Dead God's priesthood. With nothing but a few of Turstarkuri's prized dogmatic scrolls, he crept away to the comparative safety of other lands, swearing to obliterate not only the Dead God's magic users—but to put an end to magic altogether."
 
             - name: Arc_Warden
               categary: A
               number: 2
               filename: 150px-Arc_Warden_icon.png
+              lore: "Before the beginning of all, there existed a presence: a primordial mind, infinite, awesome, and set to inscrutable purpose. As the universe thundered into being, this mind was fragmented and scattered. Two among its greater fragments—who would come to be named Radiant and Dire—found themselves locked in vicious opposition, and began twisting all of creation to serve their conflict. As war and cataclysm threatened the nascent cosmos, the will of a third fragment made itself known. Naming itself Zet, this intellect sought to resolve the disharmony and return all to perfect unity. Appalled by its kin's conflicting nature, Zet gathered the sum of its power. In a sudden flash, it overwhelmed its siblings, and fused the warring aspects into a stellar sphere before hurling them into the darkness to orbit a nondescript world. Harmony was restored, though only the barest fraction of Zet's strength remained. Setting its gaze on the prison, Zet chose to use its weakened power to serve as watchful warden until time's end. For uncounted aeons, this vigil stood. Life flourished upon the world below, oblivious to the dangers imprisoned within the softly glowing moon, or of Zet's struggles to contain them. As the captives' eternal clash reverberated within, the surface of the prison shuddered, over time beginning to crack. Ultimately, Zet's depleted power proved insufficient to contain the breach, and at last the moon was shattered. The prison's ancient inhabitants had escaped to sow their conflict anew. Flung to the farthest reaches by the prison's explosion, Zet was transformed by the dissonant energies of its former captives. No longer of single form and thought, its presence had become split among many—some lesser, some greater—each connected by a fleeting arc of consciousness. Struggling to suppress its own disunity, Zet sped toward the burgeoning conflict of its siblings, bending its fractured wills toward a singular conclusion: the aspects of the primordial mind must be made to reunite, or all must be destroyed lest the conflict spread further..."
 
             - name: Bloodseeker
               categary: A
               number: 3
               filename: 150px-Bloodseeker_icon.png
+              lore: "Strygwyr the Bloodseeker is a ritually sanctioned hunter, Hound of the Flayed Twins, sent down from the mist-shrouded peaks of Xhacatocatl in search of blood. The Flayed Ones require oceanic amounts of blood to keep them sated and placated, and would soon drain their mountain empire of its populace if the priests of the high plateaus did not appease them. Strygwyr therefore goes out in search of carnage. The vital energy of any blood he lets, flows immediately to the Twins through the sacred markings on his weapons and armor. Over the years, he has come to embody the energy of a vicious hound; in battle he is savage as a jackal. Beneath the Mask of the Bloodseeker, in the rush of bloody quenching, it is said that you can sometime see the features of the Flayers taking direct possession of their Hound. "
 
             - name: Bounty_Hunter
               categary: A
               number: 4
               filename: 150px-Bounty_Hunter_icon.png
+              lore: "When the hunted tell tales of Gondar the Bounty Hunter, none are sure of which are true. In whispered tones they say he was abandoned as a kit, learning his skill in tracking as a matter of simple survival. Others hear he was an orphan of war, taken in by the great Soruq the Hunter to learn the master's skill with a blade as they plumbed the dark forests for big game. Still others believe he was a lowly street urchin raised among a guild of cutpurses and thieves, trained in the arts of stealth and misdirection. Around campfires in the wild countryside his quarry speaks the rumors of Gondar's work, growing ever more fearful: they say it was he who tracked down the tyrant King Goff years after the mad regent went into hiding, delivering his head and scepter as proof. That it was he who infiltrated the rebel camps at Highseat, finally bringing the legendary thief White Cape to be judged for his crimes. And that it was he who ended the career of Soruq the Hunter, condemned as a criminal for killing the Prince's prized hellkite. The tales of Gondar's incredible skill stretch on, with each daring feat more unbelievable than the last, each target more elusive. For the right price, the hunted know, anyone can be found. For the right price, even the mightiest may find fear in the shadows. "
 
             - name: Broodmother
               categary: A
               number: 5
               filename: 150px-Broodmother_icon.png
+              lore: "For centuries, Black Arachnia the Broodmother lurked in the dark lava tubes beneath the smoldering caldera of Mount Pyrotheos, raising millions of spiderlings in safety before sending them to find prey in the wide world above. In a later age, the Vizier of Greed, Ptholopthales, erected his lodestone ziggurat on the slopes of the dead volcano, knowing that any looters who sought his magnetic wealth must survive the spider-haunted passages. After millennia of maternal peace, Black Arachnia found herself beset by a steady trickle of furfeet and cutpurses, bold knights and noble youths—all of them delicious, certainly, and yet tending to create a less than nurturing environment for her innocent offspring. Tiring of the intrusions, she paid a visit to Ptholopthales; and when he proved unwilling to discuss a compromise, she wrapped the Vizier in silk and set him aside to be the centerpiece of a special birthday feast. Unfortunately, the absence of the Magnetic Ziggurat's master merely emboldened a new generation of intruders. When one of her newborns was trodden underfoot by a clumsy adventurer, she reached the end of her silken rope. Broodmother headed for the surface, declaring her intent to rid the world of each and every possible invader, down to the last Hero if necessary, until she could ensure her nursery might once more be a safe and wholesome environment for her precious spiderspawn. "
 
             - name: Clinkz
               categary: A
               number: 6
               filename: 150px-Clinkz_icon.png
+              lore: "At the base of the Bleeding Hills stretches a thousand-league wood—a place called The Hoven, where black pools gather the tarry blood of the uplands, and the king-mage Sutherex sits in benevolent rule. Once a sworn protector of the Hoven lands, Clinkz earned a reputation for his skill with a bow. In the three-hundredth year of the king-mage, the demon Maraxiform rose from sixth hell to lay claim to the forest. In response, the king-mage decried an unbreakable spell: to any who slew the demon would be granted Life Without End.
+
+Unaware of the spell, Clinkz waded into battle, defending his lands against the demon's fiery onslaught. Clinkz drove Maraxiform back to the gates of sixth-hell itself, where on that fiery threshold the two locked in a mortal conflict. Grievously wounded, the demon let out a blast of hellfire as Clinkz loosed his final arrow. The arrow struck the demon true as hellfire poured out across the land, lighting the black pools and burning Clinkz alive at the instant of the demon's death. Thus, the mage's spell took effect at the very moment of the archer's conflagration, preserving him in this unholy state, leaving him a being of bones and rage, caught in the very act of dying, carrying hell's breath with him on his journey into eternity. "
 
         - group: Group 2
           heros:
@@ -39,31 +48,37 @@ toc:
               categary: A
               number: 7
               filename: 150px-Drow_Ranger_icon.png
+              lore: "Drow Ranger's given name is Traxex—a name well suited to the short, trollish, rather repulsive Drow people. But Traxex herself is not a Drow. Her parents were travelers in a caravan set upon by bandits, whose noisy slaughter of innocents roused the ire of the quiet Drow people. After the battle settled, the Drow discovered a small girl-child hiding in the ruined wagons, and agreed she could not be abandoned. Even as child, Traxex showed herself naturally adept at the arts they prized: Stealth, silence, subtlety. In spirit, if not in physique, she might have been a Drow changeling, returned to her proper home. But as she grew, she towered above her family and came to think of herself as ugly. After all, her features were smooth and symmetrical, entirely devoid of warts and coarse whiskers. Estranged from her adopted tribe, she withdrew to live alone in the woods. Lost travelers who find their way from the forest sometimes speak of an impossibly beautiful Ranger who peered at them from deep among the trees, then vanished like a dream before they could approach. Lithe and stealthy, icy hot, she moves like mist in silence. That whispering you hear is her frozen arrows finding an enemy's heart. "
 
             - name: Ember_Spirit
               categary: A
               number: 8
               filename: 150px-Ember_Spirit_icon.png
+              lore: 
 
             - name: Faceless_Void
               categary: A
               number: 9
               filename: 150px-Faceless_Void_icon.png
+              lore: 
 
             - name: Gyrocopter
               categary: A
               number: 10
               filename: 150px-Gyrocopter_icon.png
+              lore: 
 
             - name: Juggernaut
               categary: A
               number: 11
               filename: 150px-Juggernaut_icon.png
+              lore: 
 
             - name: Lone_Druid
               categary: A
               number: 12
               filename: 150px-Lone_Druid_icon.png
+              lore: 
 
         - group: Group 3
           heros:
@@ -71,31 +86,37 @@ toc:
               categary: A
               number: 13
               filename: 150px-Luna_icon.png
+              lore: 
 
             - name: Medusa
               categary: A
               number: 14
               filename: 150px-Medusa_icon.png
+              lore: 
 
             - name: Meepo
               categary: A
               number: 15
               filename: 150px-Meepo_icon.png
+              lore: 
 
             - name: Mirana
               categary: A
               number: 16
               filename: 150px-Mirana_icon.png
+              lore: 
 
             - name: Monkey_King
               categary: A
               number: 17
               filename: 150px-Monkey_King_icon.png
+              lore: 
 
             - name: Morphling
               categary: A
               number: 18
               filename: 150px-Morphling_icon.png
+              lore: 
 
         - group: Group 4
           heros:
@@ -103,31 +124,37 @@ toc:
               categary: A
               number: 19
               filename: 150px-Naga_Siren_icon.png
+              lore: 
 
             - name: Nyx_Assassin
               categary: A
               number: 20
               filename: 150px-Nyx_Assassin_icon.png
+              lore: 
 
             - name: Pangolier
               categary: A
               number: 21
               filename: 150px-Pangolier_icon.png
+              lore: 
 
             - name: Phantom_Assassin
               categary: A
               number: 22
               filename: 150px-Phantom_Assassin_icon.png
+              lore: 
 
             - name: Phantom_Lancer
               categary: A
               number: 23
               filename: 150px-Phantom_Lancer_icon.png
+              lore: 
 
             - name: Razor
               categary: A
               number: 24
               filename: 150px-Razor_icon.png
+              lore: 
  
         - group: Group 5
           heros:
@@ -135,31 +162,37 @@ toc:
               categary: A
               number: 25
               filename: 150px-Riki_icon.png
+              lore: 
 
             - name: Shadow_Fiend
               categary: A
               number: 26
               filename: 150px-Shadow_Fiend_icon.png
+              lore: 
 
             - name: Slark
               categary: A
               number: 27
               filename: 150px-Slark_icon.png
+              lore: 
 
             - name: Sniper
               categary: A
               number: 28
               filename: 150px-Sniper_icon.png
+              lore: 
 
             - name: Spectre
               categary: A
               number: 29
               filename: 150px-Spectre_icon.png
+              lore: 
 
             - name: Templar_Assassin
               categary: A
               number: 30
               filename: 150px-Templar_Assassin_icon.png
+              lore: 
 
         - group: Group 6
           heros:
@@ -167,31 +200,37 @@ toc:
                 categary: A
                 number: 31
                 filename: 150px-Terrorblade_icon.png
+                lore: 
 
               - name: Troll_Warlord
                 categary: A
                 number: 32
                 filename: 150px-Troll_Warlord_icon.png
+                lore: 
 
               - name: Ursa
                 categary: A
                 number: 33
                 filename: 150px-Ursa_icon.png
+                lore: 
 
               - name: Venomancer
                 categary: A
                 number: 34
                 filename: 150px-Venomancer_icon.png
+                lore: 
 
               - name: Viper
                 categary: A
                 number: 35
                 filename: 150px-Viper_icon.png
+                lore: 
 
               - name: Void_Spirit
                 categary: A
                 number: 36
                 filename: 150px-Void_Spirit_icon.png
+                lore: 
 
         - group: Group 7
           heros:
@@ -199,9 +238,11 @@ toc:
               categary: A
               number: 37
               filename: 150px-Weaver_icon.png
+              lore: 
 
 
     - type: Intelligence
+      style: intelligence
       groups:
           - group: Group 1
             heros:
@@ -209,31 +250,37 @@ toc:
               categary: W
               number: 1
               filename: 150px-Ancient_Apparition_icon.png
+              lore: "Kaldr, the Ancient Apparition, is an image projected from outside time. He springs from the cold, infinite void that both predates the universe and awaits its end. Kaldr is, Kaldr was, Kaldr shall be...and what we perceive, powerful as it appears to us, is but the faintest faded echo of the true, eternal Kaldr. Some believe that as the cosmos ages and approaches its final moments, the brightness and power of Kaldr will also intensify—that the Ancient Apparition will grow younger and stronger as eternity's end draws nigh. His grip of ice will bring all matter to a stop, his image will cast a light too terrible to behold. An Apparition no longer!" 
 
             - name: Bane
               categary: W
               number: 2
               filename: 150px-Bane_icon.png
+              lore: "When the gods have nightmares, it is Bane Elemental who brings them. Also known as Atropos, Bane was born from the midnight terrors of the goddess Nyctasha. A force of terror too powerful to be contained by sleep, he surfaced from her slumbers, fed upon her immortality, and stole his vaporous form from her inky blood. He is the essence of fear. Mortals who hear his voice hear their darkest secrets whispered in their ear. He calls to the hidden fear in every Hero's heart. Wakefulness is no protection, for Bane's black blood, continuously dripping, is a tar that traps his enemies in nightmare. In the presence of Bane, every Hero remembers to fear the dark." 
 
             - name: Batrider
               categary: W
               number: 3
               filename: 150px-Batrider_icon.png
+              lore: "There is no such thing as harmony among the creatures of the Yama Raskav Jungle. By bite, or claw, or pincer, or hoof, even the slightest sign of weakness means a swift death. They say the Rider was just a lad cutting chaff in his family's field when he was taken, swept up by a massive morde-bat looking for take-out. But this boy had a better idea, and wriggled his way from his captor's grip, onto the beast's back, and hacked it down with his tools. Emerging from the bloody wreckage and intoxicated by the thrill of flight, the boy realized he'd found his calling. The boy grew, and every summer he'd return to his family's field, often setting out into the bush seeking to reclaim that first thrill of facing death in the form of jaws or a fatal fall. The years went on, but his fire only grew stronger. He studied the overgrowth, plunging deeper with each expedition, until finally he found his way to the caves at the heart of hostility. They say the Rider, on the eve of a scorching summer night, had nothing but a rope, a bottle of liquid courage and a burning determination to feel the skies once more, when he plunged inside..." 
 
             - name: Chen
               categary: W
               number: 4
               filename: 150px-Chen_icon.png
+              lore: "Born in the godless Hazhadal Barrens, Chen came of age among the outlaw tribes who eked out an existence in the shimmering heat of the desert. Using an ancient form of animal enthrallment, Chen's people husbanded the hardy desert locuthi, a stunted species of burrowing dragon that melted desert sands into tubes of glass where twice-a-year rains collected. Always on the edge of starvation and thirst, fighting amongst their neighbors and each other, Chen's clan made the mistake, one fateful day, of ambushing the wrong caravan. In the vicious battle that followed, Chen's clan was outmatched. The armored Knights of the Fold made short work of the enthralled locuthi, who attacked and died in waves. With their dragons dead, the tribesmen followed. Chen struggled, and slashed, and clawed, and perished—or would have. Defeated, on his knees, he faced his execution with humility, offering his neck to the blade. Moved by Chen's obvious courage, the executioner halted his sword. Instead of the blade, Chen was given a choice: death or conversion. Chen took to the faith with a ferocity. He joined the Fold and earned his armor one bloody conversion at a time. Now, with the fanaticism of a convert, and with his powers of animal enthrallment at their peak, he seeks out unbelievers and introduces them to their final reward." 
 
             - name: Crystal_Maiden
               categary: W
               number: 5
               filename: 150px-Crystal_Maiden_icon.png
+              lore: "Born in a temperate realm, raised with her fiery older sister Lina, Rylai the Crystal Maiden soon found that her innate elemental affinity to ice created trouble for all those around her. Wellsprings and mountain rivers froze in moments if she stopped to rest nearby; ripening crops were bitten by frost, and fruiting orchards turned to mazes of ice and came crashing down, spoiled. When their exasperated parents packed Lina off to the equator, Rylai found herself banished to the cold northern realm of Icewrack, where she was taken in by an Ice Wizard who had carved himself a hermitage at the crown of the Blueheart Glacier. After long study, the wizard pronounced her ready for solitary practice and left her to take his place, descending into the glacier to hibernate for a thousand years. Her mastery of the Frozen Arts has only deepened since that time, and now her skills are unmatched."  
 
             - name: Dark_Seer
               categary: W
               number: 6
               filename: 150px-Dark_Seer_icon.png
+              lore: "Fast when he needs to be, and a cunning strategist, Ish'Kafel the Dark Seer requires no edged weapons to vanquish his enemies, relying instead on the strength of his powerful mind. His talent lies in his ability to maneuver the fight to his advantage. Hailing from a place he calls 'The Land behind the wall,' Dark Seer remains an outsider here—a warrior from a realm beyond the veil of this reality. Once a great general among his people, and a valiant defender of the god-king Damathryx, Dark Seer's army was wiped out by a much larger force in the final days of the Great Boundaries War. Facing certain defeat, he made one last desperate act: he led the enemy forces into the maze between the walls. At the last moment, just before capture, he crossed over—then sealed the walls forever in an explosive release of dark energy. When the dust settled, he saw that he had saved his people but found himself blinking at the sun of a different world, with no way to return. Now he is committed to proving his worth as a military strategist, and vows to show that he's the greatest tactician this strange new world has ever seen." 
 
           - group: Group 2
             heros:
@@ -241,31 +288,37 @@ toc:
               categary: W
               number: 7
               filename: 150px-Dark_Willow_icon.png
+              lore: "Children love telling stories about the whimsical adventures of fairies... That's because children don't know that most fairies are spiteful jerks. And in the world of spiteful fairies there are few names spoken of with more contempt than Mireska Sunbreeze. Born to a fae merchant king, Mireska grew up in Revtel; a cutthroat nation where manipulation and murder were the norm. But while she was quite adept at navigating the etiquette, unspoken laws, and social rituals that permeated every element of her life, she found the whole thing rather boring. So, Mireska did what most rebellious children do: burn down her family estate and set off with her pet wisp Jex to live the life of a wandering grifter." 
 
             - name: Dazzle
               categary: W
               number: 8
               filename: 150px-Dazzle_icon.png
+              lore: 
 
             - name: Death_Prophet
               categary: W
               number: 9
               filename: 150px-Death_Prophet_icon.png
+              lore: 
 
             - name: Disruptor
               categary: W
               number: 10
               filename: 150px-Disruptor_icon.png
+              lore: 
 
             - name: Enchantress
               categary: W
               number: 11
               filename: 150px-Enchantress_icon.png
+              lore: 
 
             - name: Enigma
               categary: W
               number: 12
               filename: 150px-Enigma_icon.png
+              lore: 
 
           - group: Group 3
             heros:
@@ -273,31 +326,37 @@ toc:
               categary: W
               number: 13
               filename: 150px-Grimstroke_icon.png
+              lore: 
 
             - name: Invoker
               categary: W
               number: 14
               filename: 150px-Invoker_icon.png
+              lore: 
 
             - name: Jakiro
               categary: W
               number: 15
               filename: 150px-Jakiro_icon.png
+              lore: 
 
             - name: Keeper_of_the_Light
               categary: W
               number: 16
               filename: 150px-Keeper_of_the_Light_icon.png
+              lore: 
 
             - name: Leshrac
               categary: W
               number: 17
               filename: 150px-Leshrac_icon.png
+              lore: 
 
             - name: Lich
               categary: W
               number: 18
               filename: 150px-Lich_icon.png
+              lore: 
 
           - group: Group 4
             heros:
@@ -305,31 +364,37 @@ toc:
               categary: W
               number: 19
               filename: 150px-Lina_icon.png
+              lore: 
 
             - name: Lion
               categary: W
               number: 20
               filename: 150px-Lion_icon.png
+              lore: 
 
             - name: Nature's_Prophet
               categary: W
               number: 21
               filename: 150px-Nature's_Prophet_icon.png
+              lore: 
 
             - name: Necrophos
               categary: W
               number: 22
               filename: 150px-Necrophos_icon.png
+              lore: 
 
             - name: Ogre_Magi
               categary: W
               number: 23
               filename: 150px-Ogre_Magi_icon.png
+              lore: 
 
             - name: Oracle
               categary: W
               number: 24
               filename: 150px-Oracle_icon.png
+              lore: 
 
           - group: Group 5
             heros:
@@ -337,31 +402,37 @@ toc:
               categary: W
               number: 25
               filename: 150px-Outworld_Devourer_icon.png
+              lore: 
 
             - name: Puck
               categary: W
               number: 26
               filename: 150px-Puck_icon.png
+              lore: 
 
             - name: Pugna
               categary: W
               number: 27
               filename: 150px-Pugna_icon.png
+              lore: 
 
             - name: Queen_of_Pain
               categary: W
               number: 28
               filename: 150px-Queen_of_Pain_icon.png
+              lore: 
 
             - name: Rubick
               categary: W
               number: 29
               filename: 150px-Rubick_icon.png
+              lore: 
 
             - name: Shadow_Demon
               categary: W
               number: 30
               filename: 150px-Shadow_Demon_icon.png
+              lore: 
 
           - group: Group 6
             heros:
@@ -369,31 +440,37 @@ toc:
               categary: W
               number: 31
               filename: 150px-Shadow_Shaman_icon.png
+              lore: 
 
             - name: Silencer
               categary: W
               number: 32
               filename: 150px-Silencer_icon.png
+              lore: 
 
             - name: Skywrath_Mage
               categary: W
               number: 33
               filename: 150px-Skywrath_Mage_icon.png
+              lore: 
 
             - name: Storm_Spirit
               categary: W
               number: 34
               filename: 150px-Storm_Spirit_icon.png
+              lore: 
 
             - name: Techies
               categary: W
               number: 35
               filename: 150px-Techies_icon.png
+              lore: 
 
             - name: Tinker
               categary: W
               number: 36
               filename: 150px-Tinker_icon.png
+              lore: 
 
           - group: Group 7
             heros:
@@ -401,31 +478,37 @@ toc:
               categary: W
               number: 37
               filename: 150px-Vengeful_Spirit_icon.png
+              lore: 
 
             - name: Visage
               categary: W
               number: 38
               filename: 150px-Visage_icon.png
+              lore: 
 
             - name: Warlock
               categary: W
               number: 39
               filename: 150px-Warlock_icon.png
+              lore: 
 
             - name: Windranger
               categary: W
               number: 40
               filename: 150px-Windranger_icon.png
+              lore: 
 
             - name: Winter_Wyvern
               categary: W
               number: 41
               filename: 150px-Winter_Wyvern_icon.png
+              lore: 
 
             - name: Witch_Doctor
               categary: W
               number: 42
               filename: 150px-Witch_Doctor_icon.png
+              lore: 
 
           - group: Group 8
             heros:
@@ -433,9 +516,11 @@ toc:
               categary: W
               number: 43
               filename: 150px-Zeus_icon.png
+              lore: 
 
 
     - type: Strength
+      style: strength
       groups:
           - group: Group 1
             heros:
@@ -443,31 +528,37 @@ toc:
               categary: S
               number: 1
               filename: 150px-Abaddon_icon.png
+              lore: "The Font of Avernus is the source of a family’s strength, a crack in primal stones from which vapors of prophetic power have issued for generations. Each newborn of the cavernous House Avernus is bathed in the black mist, and by this baptism they are given an innate connection to the mystic energies of the land. They grow up believing themselves fierce protectors of their lineal traditions, the customs of the realm—but what they really are protecting is the Font itself. And the motives of the mist are unclear. When the infant Abaddon was bathed in the Font, they say something went awry. In the child’s eyes there flared a light of comprehension that startled all present and set the sacerdotes to whispering. He was raised with every expectation of following the path all scions of Avernus took—to train in war, that in times of need he might lead the family’s army in defense of the ancestral lands. But Abaddon was always one apart. Where others trained with weapons, he bent himself to meditation in the presence of the mist. He drank deep from the vapors that welled from the Font, learning to blend his spirit with the potency that flowed from far beneath the House; he became a creature of the black mist. There was bitterness within the House Avernus—elders and young alike accusing him of neglecting his responsibilities. But all such accusations stopped when Abaddon rode into battle, and they saw how the powers of the mist had given him mastery over life and death beyond those of any lord the House had ever known." 
 
             - name: Alchemist
               categary: S
               number: 2
               filename: 150px-Alchemist_icon.png
+              lore: "The sacred science of Chymistry was a Darkbrew family tradition, but no Darkbrew had ever shown the kind of creativity, ambition, and recklessness of young Razzil. However, when adulthood came calling he pushed aside the family trade to try his hand at manufacturing gold through Alchemy. In an act of audacity befitting his reputation, Razzil announced he would transmute an entire mountain into gold. Following two decades of research and spending and preparation, he failed spectacularly, quickly finding himself imprisoned for the widespread destruction his experiment wrought. Yet Razzil was never one to take a setback lightly, and sought escape to continue his research. When his new cellmate turned out to be a fierce ogre, he found just the opportunity he needed. After convincing the ogre not to eat him, Razzil set about carefully concocting a tincture for it to drink, made from the moulds and mosses growing in the prison stone work. In a week's time, it seemed ready. When the ogre drank the potion, it flew into an unstoppable berserker rage, destroying the cell bars and exploding through walls and guards alike. They soon found themselves lost somewhere in the forest surrounding the city with a trail of wreckage in their wake and no signs of pursuit. In the tonic's afterglow, the ogre seemed serene, happy, and even eager. Resolving to work together, the pair set off to collect the materials needed to attempt Razzil's Alchemic transmutation once more." 
 
             - name: Axe
               categary: S
               number: 3
               filename: 150px-Axe_icon.png
+              lore: "As a grunt in the Army of Red Mist, Mogul Khan set his sights on the rank of Red Mist General. In battle after battle he proved his worth through gory deed. His rise through the ranks was helped by the fact that he never hesitated to decapitate a superior. Through the seven year Campaign of the Thousand Tarns, he distinguished himself in glorious carnage, his star of fame shining ever brighter, while the number of comrades in arms steadily dwindled. On the night of ultimate victory, Axe declared himself the new Red Mist General, and took on the ultimate title of 'Axe.' But his troops now numbered zero. Of course, many had died in battle, but a significant number had also fallen to Axe's blade. Needless to say, most soldiers now shun his leadership. But this matters not a whit to Axe, who knows that a one-man army is by far the best." 
 
             - name: Beastmaster
               categary: S
               number: 4
               filename: 150px-Beastmaster_icon.png
+              lore: "Karroch was born a child of the stocks. His mother died in childbirth; his father, a farrier for the Last King of Slom, was trampled to death when he was five. Afterward Karroch was indentured to the king's menagerie, where he grew up among all the beasts of the royal court: lions, apes, fell-deer, and things less known, things barely believed in. When the lad was seven, an explorer brought in a beast like none before seen. Dragged before the King in chains, the beast spoke, though its mouth moved not. Its words: a plea for freedom. The King only laughed and ordered the beast perform for his amusement; and when it refused, struck it with the Mad Scepter and ordered it dragged to the stocks. Over the coming months, the boy Karroch sneaked food and medicinal draughts to the wounded creature, but only managed to slow its deterioration. Wordlessly, the beast spoke to the boy, and over time their bond strengthened until the boy found he could hold up his end of a conversation. He could, in fact, speak now to all the creatures of the King's menagerie. On the night the beast died, a rage came over the boy. He incited the animals of the court to rebel and threw open their cages to set them amok on the palace grounds. The Last King was mauled in the mayhem. In the chaos, one regal stag bowed to the boy who had freed him; and with Beastmaster astride him, leapt the high walls of the estate, and escaped. Now a man, Karroch the Beastmaster has not lost his ability to converse with wild creatures. He has grown into a warrior at one with nature's savagery." 
 
             - name: Brewmaster
               categary: S
               number: 5
               filename: 150px-Brewmaster_icon.png
+              lore: "Deep in the Wailing Mountains, in a valley beneath the Ruined City, the ancient Order of the Oyo has for centuries practiced its rites of holy reverie, communing with the spirit realm in grand festivals of drink. Born to a mother's flesh by a Celestial father, the youth known as Mangix was the first to grow up with the talents of both lineages. He trained with the greatest aesthetes of the Order, eventually earning, through diligent drunkenness, the right to challenge for the title of Brewmaster—that appellation most honored among the contemplative malt-brewing sect. As much drinking competition as mortal combat, Mangix for nine days drank and fought the elder master. For nine nights they stumbled and whirled, chugged and struck, until at last the elder warrior collapsed into a drunken stupor, and a new Brewmaster was named. Now the new, young Brewmaster calls upon the strength of his Oyo forebears to speed his staff. When using magic, it is to his spirit ancestors that he turns. Like all Brewmasters before him, he was sent out from his people with a single mission. He wanders the land, striving toward enlightenment through drink, searching for the answer to the ancient spiritual schism—hoping to think the single thought that will unite the spirit and physical planes again." 
 
             - name: Bristleback
               categary: S
               number: 6
               filename: 150px-Bristleback_icon.png
+              lore: "Never one to turn his back on a fight, Rigwarl was known for battling the biggest, meanest scrappers he could get his hands on. Christened Bristleback by the drunken crowds, he waded into backroom brawls in every road tavern between Slom and Elze, until his exploits finally caught the eye of a barkeep in need of an enforcer. For a bit of brew, Bristleback was hired to collect tabs, keep the peace, and break the occasional leg or two (or five, in the case of one unfortunate web-hund). After indulging in a night of merriment during which bodily harm was meted out in equal parts upon both delinquent patrons and his own liver, Bristleback finally met his match. 'Your tusks offend me, sir,' he was heard to drunkenly slur to one particularly large fellow from the northern wastes whose bill had come due. What followed was a fight for the ages. A dozen fighters jumped in. No stool was left unbroken, and in the end, the impossible happened: the tab went unpaid. Over the weeks that followed, Bristleback's wounds healed, and his quills grew back; but an enforcer's honor can be a prickly thing. He paid the tab from his own coin, vowing to track down this northerner and extract redemption. And then he did something he'd never done before—he actually trained, and in so doing made a startling discovery about himself. A smile peeled back from his teeth as he flexed his quills. Turning his back to a fight might be just the thing." 
 
           - group: Group 2
             heros:
@@ -475,31 +566,37 @@ toc:
               categary: S
               number: 7
               filename: 150px-Centaur_Warrunner_icon.png
+              lore: "It's said that a centaur's road is paved with the corpses of the fallen. For the one called Warrunner, it has been a long road indeed. To outsiders, the four-legged clans of Druud are often mistaken for simple, brutish creatures. Their language has no written form; their culture lacks pictographic traditions, structured music, formalized religion. For centaurs, combat is the perfect articulation of thought, the highest expression of self. If killing is an art among centaurs, then Bradwarden the Warrunner is their greatest artist. He rose to dominance on the proving grounds of Omexe, an ancient arena where centaur clans have for millennia gathered to perform their gladiatorial rights. As his fame spread, spectators came from far and wide to see the great centaur in action. Always the first to step into the arena, and the last to leave, he composes a masterpiece in each guttering spray, each thrust of blood-slickened blade-length. It is the poetry of blood on steel, flung in complex patterns across the pale sands of the killing floor. Warrunner defeated warrior after warrior, until the arena boomed with the cheering of his name, and he found himself alone, the uncontested champion of his kind. The great belt of Omexe was bestowed, wrapped around his broad torso, but in his victory, the death-artist found only emptiness. For what is a warrior without a challenge? The great centaur galloped out of Omexe that day with a new goal. To his people, Warrunner is the greatest warrior to ever step into the arena. Now he has set out to prove he is the greatest fighter who has ever lived." 
 
             - name: Chaos_Knight
               categary: S
               number: 8
               filename: 150px-Chaos_Knight_icon.png
+              lore: 
 
             - name: Clockwerk
               categary: S
               number: 9
               filename: 150px-Clockwerk_icon.png
+              lore: 
 
             - name: Doom
               categary: S
               number: 10
               filename: 150px-Doom_icon.png
+              lore: 
 
             - name: Dragon_Knight
               categary: S
               number: 11
               filename: 150px-Dragon_Knight_icon.png
+              lore: 
 
             - name: Earth_Spirit
               categary: S
               number: 12
               filename: 150px-Earth_Spirit_icon.png
+              lore: 
 
           - group: Group 3
             heros:
@@ -507,31 +604,37 @@ toc:
               categary: S
               number: 13
               filename: 150px-Earthshaker_icon.png
+              lore: 
 
             - name: Elder_Titan
               categary: S
               number: 14
               filename: 150px-Elder_Titan_icon.png
+              lore: 
 
             - name: Huskar
               categary: S
               number: 15
               filename: 150px-Huskar_icon.png
+              lore: 
 
             - name: Io
               categary: S
               number: 16
               filename: 150px-Io_icon.png
+              lore: 
 
             - name: Kunkka
               categary: S
               number: 17
               filename: 150px-Kunkka_icon.png
+              lore: 
 
             - name: Legion_Commander
               categary: S
               number: 18
               filename: 150px-Legion_Commander_icon.png
+              lore: 
 
           - group: Group 4
             heros:
@@ -539,31 +642,37 @@ toc:
               categary: S
               number: 19
               filename: 150px-Lifestealer_icon.png
+              lore: 
 
             - name: Lycan
               categary: S
               number: 20
               filename: 150px-Lycan_icon.png
+              lore: 
 
             - name: Magnus
               categary: S
               number: 21
               filename: 150px-Magnus_icon.png
+              lore: 
 
             - name: Mars
               categary: S
               number: 22
               filename: 150px-Mars_icon.png
+              lore: 
 
             - name: Night_Stalker
               categary: S
               number: 23
               filename: 150px-Night_Stalker_icon.png
+              lore: 
 
             - name: Omniknight
               categary: S
               number: 24
               filename: 150px-Omniknight_icon.png
+              lore: 
 
           - group: Group 5
             heros:
@@ -571,31 +680,37 @@ toc:
               categary: S
               number: 25
               filename: 150px-Phoenix_icon.png
+              lore: 
 
             - name: Pudge
               categary: S
               number: 26
               filename: 150px-Pudge_icon.png
+              lore: 
 
             - name: Sand_King
               categary: S
               number: 27
               filename: 150px-Sand_King_icon.png
+              lore: 
 
             - name: Slardar
               categary: S
               number: 28
               filename: 150px-Slardar_icon.png
+              lore: 
 
             - name: Snapfire
               categary: S
               number: 29
               filename: 150px-Snapfire_icon.png
+              lore: 
 
             - name: Spirit_Breaker
               categary: S
               number: 30
               filename: 150px-Spirit_Breaker_icon.png
+              lore: 
 
           - group: Group 6
             heros:
@@ -603,31 +718,37 @@ toc:
               categary: S
               number: 31
               filename: 150px-Sven_icon.png
+              lore: 
 
             - name: Tidehunter
               categary: S
               number: 32
               filename: 150px-Tidehunter_icon.png
+              lore: 
 
             - name: Timbersaw
               categary: S
               number: 33
               filename: 150px-Timbersaw_icon.png
+              lore: 
 
             - name: Tiny
               categary: S
               number: 34
               filename: 150px-Tiny_icon.png
+              lore: 
 
             - name: Treant_Protector
               categary: S
               number: 35
               filename: 150px-Treant_Protector_icon.png
+              lore: 
 
             - name: Tusk
               categary: S
               number: 36
               filename: 150px-Tusk_icon.png
+              lore: 
 
           - group: Group 7
             heros:
@@ -635,16 +756,19 @@ toc:
               categary: S
               number: 37
               filename: 150px-Underlord_icon.png
+              lore: 
 
             - name: Undying
               categary: S
               number: 38
               filename: 150px-Undying_icon.png
+              lore: 
 
             - name: Wraith_King
               categary: S
               number: 39
               filename: 150px-Wraith_King_icon.png
+              lore: 
 
 
 # <div>
