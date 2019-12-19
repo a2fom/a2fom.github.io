@@ -22,7 +22,7 @@ description: "Agility, Intelligence and Strength"
 <!-- Tab content -->
 {% for item in site.data.heros.toc %}
 <div id="{{ item.type }}" class="tabcontent">
-    <p class={{ item.style }}><span> {{ item.type }} </span></p>
+    <p class="{{ item.style }}"><span> {{ item.type }} </span></p>
     <ul style="margin-left:0.725rem; padding:0;">
     {% for group in item.groups %}
             {% for hero in group.heros %}
@@ -44,7 +44,7 @@ description: "Agility, Intelligence and Strength"
 <!-- Show all heros -->
 <div id="Showall" class="tabcontent">
     {% for item in site.data.heros.toc %}
-        <p class={{ item.style }}><span> {{ item.type }} </span></p>
+        <p class="{{ item.style }}"><span> {{ item.type }} </span></p>
         <ul style="margin-left:0.725rem; padding:0;">
         {% for group in item.groups %}
             {% for hero in group.heros %}
